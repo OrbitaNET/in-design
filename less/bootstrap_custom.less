@@ -24,6 +24,8 @@ a {
     z-index: 10;
     position: relative;
     height: 100%;
+    width: 100%;
+    display: table;
     .header {
       height: 40px;
       background: transparent;
@@ -33,6 +35,8 @@ a {
       .user-select(none);
       cursor: default;
       margin: 0 0 22px;
+      display: table-caption;
+      width: 100%;
       .title {
         margin-right: 24px;
       }
@@ -56,35 +60,39 @@ a {
         }
       }
     }
-
-      .second-sidebar {
-        width: 190px;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        ul.nav.nav-pills.nav-stacked {
-          li {
+    .second-sidebar {
+      width: 190px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: table-cell;
+      vertical-align: top;
+      ul.nav.nav-pills.nav-stacked {
+        li {
+          .border-radius(0);
+          padding: 0;
+          border: 0;
+          margin: 0 auto;
+          background-color: transparent;
+          font-size: 13px;
+          color: rgba(255, 255, 255, 1);
+          a {
             .border-radius(0);
-            padding: 0;
-            border: 0;
-            margin: 0 auto;
-            background-color: transparent;
-            font-size: 13px;
             color: rgba(255, 255, 255, 1);
-            display: table-row;
-            vertical-align: middle;
-            a {
-              .border-radius(0);
-              color: rgba(255, 255, 255, 1);
-            }
           }
-          li.active, li:hover, li:active {
-            a {
-              text-decoration: underline;
-              background-color: transparent;
-              color: rgba(255, 255, 255, 1);
-            }
+        }
+        li.active, li:hover, li:active {
+          a {
+            text-decoration: underline;
+            background-color: transparent;
+            color: rgba(255, 255, 255, 1);
           }
         }
       }
+    }
+    #content {
+      display: table-cell;
+      vertical-align: top;
+      height: 100%;
+    }
   }
 }

@@ -49,7 +49,7 @@
                     </ul>
                 </div>
 			</div>
-            <div class="main-sidebar pull-left">
+            <div class="main-sidebar">
                 <ul class="nav nav-pills nav-stacked">
                     <li class="thumbnail add" data-submenu="submenu-plus">
                         <a href="/" class="show text-center">
@@ -101,7 +101,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="second-sidebar pull-left">
+            <div class="second-sidebar">
                 <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                     <li>
                         <a href="/" class="show text-left">
@@ -150,7 +150,7 @@
                     </li>
                  </ul>
             </div>
-            <div id="content" class="pull-left">
+            <div id="content">
                 dafzgkbanfdkbnjdfanb f<br>
                 dafzgkbanfdkbnjdfanb f<br>
                 dafzgkbanfdkbnjdfanb f<br>
