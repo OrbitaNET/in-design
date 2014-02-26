@@ -50,59 +50,106 @@
                 </div>
 			</div>
 			<div class="content">
-                <div class="main-sidebar menu pull-left">
+                <div class="main-sidebar pull-left">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="thumbnail add">
+                        <li class="thumbnail add" data-submenu="submenu-plus">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-plus"></i>
-                                <p class="">Добавить</p>
+                                <p>Добавить</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="active thumbnail" data-submenu="submenu-desktop">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-desktop"></i>
-                                <p class="text-center">Рабочий стол</p>
+                                <p>Рабочий стол</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-common">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-common"></i>
-                                <p class="text-center">Общее</p>
+                                <p>Общее</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-company">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-company"></i>
-                                <p class="text-center">Компания</p>
+                                <p>Компания</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-news">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-news"></i>
-                                <p class="text-center">Новости</p>
+                                <p>Новости</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-guides">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-guides"></i>
-                                <p class="text-center">Руководства</p>
+                                <p>Руководства</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-university">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-university"></i>
-                                <p class="text-center">Университет</p>
+                                <p>Университет</p>
                             </a>
                         </li>
-                        <li class="thumbnail">
+                        <li class="thumbnail" data-submenu="submenu-settings">
                             <a href="/" class="show text-center">
                                 <i class="sidebar-settings"></i>
-                                <p class="text-center">Настройки</p>
+                                <p>Настройки</p>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="second-sidebar submenu pull-left">
+                <div class="second-sidebar pull-left">
+                    <ul class="nav nav-pills nav-stacked" id="submenu-plus">
+                        <li>
+                            <a href="/" class="show text-left">
+                                Сотрудника
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Франчайзи
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Потенциального франчайзи
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Задачу
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Комментарий к франчайзи
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Сообщение
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Новость
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Руководство
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" class="show text-left">
+                                Университет
+                            </a>
+                        </li>
+                     </ul>
                 </div>
                 <div id="content">
                 </div>
