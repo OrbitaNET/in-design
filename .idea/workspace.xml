@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\images\main-backgroud.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\style.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/main-sidebar.less" />
+      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\in-design\.idea\in-design.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\in-design\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\in-design\.idea\workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap.less" afterPath="$PROJECT_DIR$/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap_custom.less" afterPath="$PROJECT_DIR$/less/bootstrap_custom.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/glyphicons.less" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/normalize.less" afterPath="$PROJECT_DIR$/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="112" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-2.6153846" vertical-offset="459" max-vertical-offset="1105">
+            <state line="98" column="58" selection-start="5517" selection-end="5517" vertical-scroll-proportion="-30.384615" vertical-offset="876" max-vertical-offset="2040">
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -57,7 +49,7 @@
       <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="10.461538" vertical-offset="357" max-vertical-offset="969">
+            <state line="51" column="21" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-29.73077" vertical-offset="94" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -66,16 +58,25 @@
       <file leaf-file-name="normalize.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/normalize.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="13" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-4.1346154" vertical-offset="1383" max-vertical-offset="7429">
+            <state line="25" column="25" selection-start="509" selection-end="509" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="7429">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_custom.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap_custom.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="194" selection-end="194" vertical-scroll-proportion="0.23859648" vertical-offset="0" max-vertical-offset="1071">
+            <state line="61" column="23" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-25.153847" vertical-offset="383" max-vertical-offset="1258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-sidebar.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="47" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.5337143" vertical-offset="536" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -84,7 +85,7 @@
       <file leaf-file-name="mixins.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="-3.4038463" vertical-offset="350" max-vertical-offset="15827">
+            <state line="287" column="14" selection-start="7855" selection-end="7869" vertical-scroll-proportion="-3.0769231" vertical-offset="4719" max-vertical-offset="15912">
               <folding />
             </state>
           </provider>
@@ -112,12 +113,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/less/bootstrap.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/less/normalize.less" />
         <option value="$PROJECT_DIR$/less/mixins.less" />
+        <option value="$PROJECT_DIR$/less/glyphicons.less" />
+        <option value="$PROJECT_DIR$/less/bootstrap.less" />
         <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/less/main-sidebar.less" />
       </list>
     </option>
   </component>
@@ -249,7 +252,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -306,22 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="112" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-2.6153846" vertical-offset="459" max-vertical-offset="1105">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="10.461538" vertical-offset="357" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1052" selection-end="1076" vertical-scroll-proportion="-7.1923075" vertical-offset="510" max-vertical-offset="14195">
@@ -331,21 +318,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/normalize.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="13" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-4.1346154" vertical-offset="1383" max-vertical-offset="7429">
+        <state line="25" column="25" selection-start="509" selection-end="509" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="7429">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="-3.4038463" vertical-offset="350" max-vertical-offset="15827">
+        <state line="287" column="14" selection-start="7855" selection-end="7869" vertical-scroll-proportion="-3.0769231" vertical-offset="4719" max-vertical-offset="15912">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/glyphicons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="62" selection-start="7418" selection-end="7418" vertical-scroll-proportion="-6.1923075" vertical-offset="1947" max-vertical-offset="4046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="21" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-29.73077" vertical-offset="94" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="58" selection-start="5517" selection-end="5517" vertical-scroll-proportion="-30.384615" vertical-offset="876" max-vertical-offset="2040">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="194" selection-end="194" vertical-scroll-proportion="0.23859648" vertical-offset="0" max-vertical-offset="1071">
+        <state line="61" column="23" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-25.153847" vertical-offset="383" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="47" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.5337143" vertical-offset="536" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>

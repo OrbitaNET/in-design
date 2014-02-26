@@ -50,7 +50,62 @@
                 </div>
 			</div>
 			<div class="content">
-
+                <div class="main-sidebar menu pull-left">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="thumbnail add">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-plus"></i>
+                                <p class="">Добавить</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-desktop"></i>
+                                <p class="text-center">Рабочий стол</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-common"></i>
+                                <p class="text-center">Общее</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-company"></i>
+                                <p class="text-center">Компания</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-news"></i>
+                                <p class="text-center">Новости</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-guides"></i>
+                                <p class="text-center">Руководства</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-university"></i>
+                                <p class="text-center">Университет</p>
+                            </a>
+                        </li>
+                        <li class="thumbnail">
+                            <a href="/" class="show text-center">
+                                <i class="sidebar-settings"></i>
+                                <p class="text-center">Настройки</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="second-sidebar submenu pull-left">
+                </div>
+                <div id="content">
+                </div>
 			</div>
 		</div>
 	</div>
