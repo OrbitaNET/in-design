@@ -49,111 +49,178 @@
                     </ul>
                 </div>
 			</div>
-			<div class="content">
-                <div class="main-sidebar pull-left">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li class="thumbnail add" data-submenu="submenu-plus">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-plus"></i>
-                                <p>Добавить</p>
-                            </a>
-                        </li>
-                        <li class="active thumbnail" data-submenu="submenu-desktop">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-desktop"></i>
-                                <p>Рабочий стол</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-common">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-common"></i>
-                                <p>Общее</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-company">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-company"></i>
-                                <p>Компания</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-news">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-news"></i>
-                                <p>Новости</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-guides">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-guides"></i>
-                                <p>Руководства</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-university">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-university"></i>
-                                <p>Университет</p>
-                            </a>
-                        </li>
-                        <li class="thumbnail" data-submenu="submenu-settings">
-                            <a href="/" class="show text-center">
-                                <i class="sidebar-settings"></i>
-                                <p>Настройки</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="second-sidebar pull-left">
-                    <ul class="nav nav-pills nav-stacked" id="submenu-plus">
-                        <li>
-                            <a href="/" class="show text-left">
-                                Сотрудника
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Франчайзи
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Потенциального франчайзи
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Задачу
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Комментарий к франчайзи
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Сообщение
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Новость
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Руководство
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/" class="show text-left">
-                                Университет
-                            </a>
-                        </li>
-                     </ul>
-                </div>
-                <div id="content">
-                </div>
-			</div>
+            <div class="main-sidebar pull-left">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="thumbnail add" data-submenu="submenu-plus">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-plus"></i>
+                            <p>Добавить</p>
+                        </a>
+                    </li>
+                    <li class="active thumbnail" data-submenu="submenu-desktop">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-desktop"></i>
+                            <p>Рабочий стол</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-common">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-common"></i>
+                            <p>Общее</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-company">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-company"></i>
+                            <p>Компания</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-news">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-news"></i>
+                            <p>Новости</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-guides">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-guides"></i>
+                            <p>Руководства</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-university">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-university"></i>
+                            <p>Университет</p>
+                        </a>
+                    </li>
+                    <li class="thumbnail" data-submenu="submenu-settings">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar-settings"></i>
+                            <p>Настройки</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="second-sidebar pull-left">
+                <ul class="nav nav-pills nav-stacked" id="submenu-plus">
+                    <li>
+                        <a href="/" class="show text-left">
+                            Сотрудника
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Франчайзи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Потенциального франчайзи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Задачу
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Комментарий к франчайзи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Сообщение
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Новость
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Руководство
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Университет
+                        </a>
+                    </li>
+                 </ul>
+            </div>
+            <div id="content" class="pull-left">
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb f<br>
+                dafzgkbanfdkbnjdfanb fap fap fap<br>
+            </div>
+            <br style="clear:both;" />
 		</div>
 	</div>
     <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
