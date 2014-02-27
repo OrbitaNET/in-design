@@ -38,12 +38,12 @@
                     <ul class="dropdown-menu">
                         <li>
                             <a href="/cabinet/user/settings">
-                                <span class="glyphicon glyphicon-cog"></span>&nbsp;Персональная информация
+                                <span class="glyphicon glyphicon-home"></span>Персональная информация
                             </a>
                         </li>
                         <li>
                             <a href="/site/logout" class="delete">
-                                <span class="glyphicon glyphicon-off exit"></span>&nbsp;Выход
+                                <span class="glyphicon glyphicon-off exit"></span>Выход
                             </a>
                         </li>
                     </ul>
@@ -51,13 +51,13 @@
 			</div>
             <div class="main-sidebar">
                 <ul class="nav nav-pills nav-stacked">
-                    <li class="thumbnail add" data-submenu="submenu-plus">
+                    <li class="active thumbnail add" data-submenu="submenu-plus">
                         <a href="/" class="show text-center">
                             <i class="sidebar-plus"></i>
                             <p>Добавить</p>
                         </a>
                     </li>
-                    <li class="active thumbnail" data-submenu="submenu-desktop">
+                    <li class="thumbnail" data-submenu="submenu-desktop">
                         <a href="/" class="show text-center">
                             <i class="sidebar-desktop"></i>
                             <p>Рабочий стол</p>
@@ -81,13 +81,13 @@
                             <p>Новости</p>
                         </a>
                     </li>
-                    <li class="thumbnail" data-submenu="submenu-guides">
+                    <li class="thumbnail">
                         <a href="/" class="show text-center">
                             <i class="sidebar-guides"></i>
                             <p>Руководства</p>
                         </a>
                     </li>
-                    <li class="thumbnail" data-submenu="submenu-university">
+                    <li class="thumbnail">
                         <a href="/" class="show text-center">
                             <i class="sidebar-university"></i>
                             <p>Университет</p>
@@ -99,10 +99,16 @@
                             <p>Настройки</p>
                         </a>
                     </li>
+                    <li class="thumbnail">
+                        <a href="/" class="show text-center">
+                            <i class="sidebar"></i>
+                            <p>О компании</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="second-sidebar">
-                <ul class="nav nav-pills nav-stacked" id="submenu-plus">
+            <div class="second-sidebar" style="display: table-cell;">
+                <ul class="nav nav-pills nav-stacked" id="submenu-plus" style="display: block;">
                     <li>
                         <a href="/" class="show text-left">
                             Сотрудника
@@ -148,77 +154,214 @@
                             Университет
                         </a>
                     </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked" id="submenu-common">
+                    <li>
+                        <a href="/" class="show text-left">
+                            Лента событий
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Календарь
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Сообщения
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Задачи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Уведомления
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Обращения
+                        </a>
+                    </li>
                  </ul>
+                <ul class="nav nav-pills nav-stacked" id="submenu-company">
+                    <li>
+                        <a href="/" class="show text-left">
+                            Франчайзи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Сотрудники
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Дни рождения
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked" id="submenu-news">
+                    <li>
+                        <a href="/" class="show text-left">
+                            Все новости
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Новости франчайзинга
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Новости компании
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked" id="submenu-settings">
+                    <li>
+                        <a href="/" class="show text-left">
+                            Логи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Права доступа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Справочники
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Страница «О компании»
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Настройки администратора
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Настройка тестов
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Настройка новостей
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Настройка руководств
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Настройка университетов
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="show text-left">
+                            Руководители компании
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div id="content">
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb f<br>
-                dafzgkbanfdkbnjdfanb fap fap fap<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
+                skbnrksfnbknrsdfkbnkndf<br>
             </div>
             <br style="clear:both;" />
 		</div>

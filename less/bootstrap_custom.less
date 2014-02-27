@@ -3,9 +3,9 @@ a {
 }
 .wrap {
   min-height: 100%;
-  width: 100%;
-  background: url('/images/main-background.png') no-repeat;
-  background-size: cover;
+  height: 100%;
+/*  background: url('/images/main-background.png') no-repeat;
+  background-size: cover;*/
   position: relative;
   padding: 0;
   background-attachment: fixed;
@@ -48,6 +48,7 @@ a {
       .title-dropdown {
         font-size: 13px;
         line-height: 27px;
+        height: 40px;
         sub {
           position: absolute;
           top: 20px;
@@ -58,15 +59,35 @@ a {
         .caret {
           margin-top: 12px;
         }
+        ul.dropdown-menu {
+          .border-radius(0);
+          padding: 0;
+          margin: 0;
+          li {
+            a {
+              padding: 10px 15px;
+              span.glyphicon {
+                margin-right: 12px;
+              }
+            }
+          }
+          li:hover, li:active, li.active {
+            a {
+              background-color: rgba(0, 0, 0, 0.5);
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
       }
     }
     .second-sidebar {
-      width: 190px;
+      width: 200px;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
       display: table-cell;
       vertical-align: top;
       ul.nav.nav-pills.nav-stacked {
+        display: none;
         li {
           .border-radius(0);
           padding: 0;
@@ -84,7 +105,12 @@ a {
           a {
             text-decoration: underline;
             background-color: transparent;
-            color: rgba(255, 255, 255, 1);
+            color: rgba(82, 209, 82, 1);
+          }
+        }
+        li:first-child {
+          a {
+            padding-top: 20px;
           }
         }
       }
@@ -93,6 +119,7 @@ a {
       display: table-cell;
       vertical-align: top;
       height: 100%;
+      width: 900px;
     }
   }
 }
