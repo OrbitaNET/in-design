@@ -49,5 +49,67 @@
                 }
             }
         }
+        .lenta-event {
+            margin: 15px 0;
+            .media-object {
+                width: 35px;
+                height: 35px;
+            }
+            .media-object.add-task {
+                background: url("/images/lenta-event.png") no-repeat 0px 0px;
+            }
+            .media-object.ready-task {
+                background: url("/images/lenta-event.png") no-repeat 0px -35px;
+            }
+            .media-object.edit-task {
+                background: url("/images/lenta-event.png") no-repeat 0px -70px;
+            }
+            .media {
+                padding: 24px 0;
+                margin: 0;
+                border-bottom: 1px solid rgba(226, 227, 228, 1);
+                a {
+                    color: rgba(73, 169, 66, 1);
+                }
+                a:hover, a:active {
+                    text-decoration: underline;
+                }
+                .media-heading {
+                    margin: 0 0 20px;
+                }
+                .bs-callout {
+                    padding: @padding-large-vertical @padding-large-horizontal;
+                    .help-block {
+                        color: @gray-light;
+                    }
+                }
+                p {
+                    margin: 5px 0;
+                    font-size: 13px;
+                }
+                .feedback {
+                    font-size: 13px;
+                    .comment-block {
+                        color: rgba(188, 190, 192, 1);
+                        margin-right: 20px;
+                        span.glyphicon {
+                            margin-right: 8px;
+                        }
+                    }
+                    a {
+                        margin-right: 20px;
+                    }
+                    a:last-child {
+                        margin-right: 0;
+                    }
+                    a.delete:hover, a.delete:active {
+                        color: @brand-danger;
+                    }
+                }
+            }
+            .media:last-child {
+                border-bottom: 0;
+            }
+        }
     }
 }

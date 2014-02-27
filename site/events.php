@@ -251,6 +251,79 @@
                         <i></i><label class="btn btn-link btn-sm">Выбрать людей</label>
                     </div>
                 </div>
+                <div class="clearfix"></div>
+                <div class="lenta-event">
+                    <div class="media">
+                        <div class="media-object pull-left add-task"></div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Поставлена задача <a>Заплатить роялти</a></h4>
+                            <div class="bs-callout bs-callout-success">
+                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
+                                <div class="help-block"><small>+ вложенные файлы</small></div>
+                            </div>
+                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
+                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
+                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
+                            <div class="feedback pull-left">
+                                <div class="comment-block pull-left">
+                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
+                                </div>
+                                <a class="pull-left">Комментировать</a>
+                                <a class="pull-left">Ответить</a>
+                                <a class="delete pull-left">Удалить</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-object pull-left ready-task"></div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Выполнена задача <a>Заплатить роялти</a></h4>
+                            <div class="bs-callout bs-callout-success">
+                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
+                                <div class="help-block"><small>+ вложенные файлы</small></div>
+                            </div>
+                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
+                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
+                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
+                            <div class="feedback pull-left">
+                                <div class="comment-block pull-left">
+                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
+                                </div>
+                                <a class="pull-left">Комментировать</a>
+                                <a class="pull-left">Ответить</a>
+                                <a class="delete pull-left">Удалить</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-object pull-left edit-task"></div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Изменена задача <a>Заплатить роялти</a></h4>
+                            <div class="bs-callout bs-callout-success">
+                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
+                                <div class="help-block"><small>+ вложенные файлы</small></div>
+                            </div>
+                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
+                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
+                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
+                            <div class="feedback pull-left">
+                                <div class="comment-block pull-left">
+                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
+                                </div>
+                                <a class="pull-left">Комментировать</a>
+                                <a class="pull-left">Ответить</a>
+                                <a class="delete pull-left">Удалить</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </td>
     </tr>

@@ -1,9 +1,43 @@
+.bs-callout {
+    padding: 25px;
+    border-left: 3px solid @gray-lighter;
+}
+
+.bs-callout-primary {
+    background-color: rgba(red(@brand-primary), green(@brand-primary), blue(@brand-primary), 0.1);
+    border-color: @brand-primary;
+}
+
+.bs-callout-success {
+    background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.1);
+    border-color: @brand-success;
+}
+
+.bs-callout-info {
+    background-color: rgba(red(@brand-info), green(@brand-info), blue(@brand-info), 0.1);
+    border-color: @brand-info;
+}
+
+.bs-callout-warning {
+    background-color: rgba(red(@brand-warning), green(@brand-warning), blue(@brand-warning), 0.1);
+    border-color: @brand-warning;
+}
+
+.bs-callout-danger {
+    background-color: rgba(red(@brand-danger), green(@brand-danger), blue(@brand-danger), 0.1);
+    border-color: @brand-danger;
+}
+
 a {
     color: rgba(77, 77, 79, 1);
+    cursor: pointer;
 }
 
 h1 {
     font-size: floor((@font-size-base * 1.6)); // ~22px
+}
+h4 {
+    font-size: floor((@font-size-base * 1.1)); // ~15px
 }
 
 .background {
