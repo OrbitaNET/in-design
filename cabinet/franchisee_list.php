@@ -1,5 +1,5 @@
-<?php $title = ''; ?>
-<?php require_once('begin.php');?>
+<?php $title = 'Франчайзи - '; ?>
+<?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
         <td class="main-sidebar">
@@ -10,19 +10,19 @@
                         <p>Добавить</p>
                     </a>
                 </li>
-                <li class="active thumbnail" data-submenu="submenu-desktop">
+                <li class="thumbnail" data-submenu="submenu-desktop">
                     <a href="/" class="show text-center">
                         <i class="sidebar-desktop"></i>
                         <p>Рабочий стол</p>
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-common">
-                    <a href="/site/events.php" class="show text-center">
+                    <a href="/" class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
-                <li class="thumbnail" data-submenu="submenu-company">
+                <li class="active thumbnail" data-submenu="submenu-company">
                     <a href="/cabinet/franchisee_list.php" class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
@@ -54,7 +54,7 @@
                 </li>
             </ul>
         </td>
-        <td class="second-sidebar col-lg-2 col-md-2 hide">
+        <td class="second-sidebar col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                 <li>
                     <a href="/" class="show text-left">
@@ -102,7 +102,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-common" style="display: block;">
+            <ul class="nav nav-pills nav-stacked" id="submenu-common">
                 <li>
                     <a href="/" class="show text-left">
                         Лента событий
@@ -134,8 +134,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-company">
-                <li>
+            <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
+                <li class="active">
                     <a href="/" class="show text-left">
                         Франчайзи
                     </a>
@@ -225,4 +225,4 @@
         </td>
     </tr>
 </table>
-<?php require_once('end.php');?>
+<?php require_once('../end.php');?>

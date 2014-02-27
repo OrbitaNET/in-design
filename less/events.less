@@ -1,0 +1,53 @@
+#content {
+    .events {
+        .filter-group-buttons {
+            label {
+                .border-radius(0);
+                margin: 0 20px 0 10px;
+                background-color: transparent;
+                border: 0;
+                border-bottom: 1px dashed rgba(77, 77, 79, 1);
+                .box-shadow(none);
+                color: @link-color;
+                padding: 5px 0;
+                text-decoration: none;
+            }
+            label:last-child {
+                margin-right: 0;
+            }
+            label.active {
+                margin: 0 10px 0 0;
+                background-color: rgba(73, 155, 53, 1);
+                color: rgba(255, 255, 255, 1);
+                padding: @padding-small-vertical @padding-small-horizontal;
+                border: 0;
+                border-bottom: 1px solid rgba(73, 155, 53, 1);
+            }
+            label.active:last-child {
+                margin-right: 0;
+            }
+            .getPeopleList {
+                padding: 0 10px;
+                i {
+                    background: url("/images/filter-group-buttons-get-list-people.png") no-repeat top center;
+                    height: 14px;
+                    width: 14px;
+                    display: inline-block;
+                    position: relative;
+                    top: 3px;
+                }
+            }
+            .getPeopleList.active {
+                background-color: rgb(73, 155, 53);
+                i {
+                    background: url("/images/filter-group-buttons-get-list-people.png") no-repeat bottom center;
+                }
+                label {
+                    color: rgba(255, 255, 255, 1);
+                    border: 0;
+                    border-bottom: 1px solid rgba(73, 155, 53, 1);
+                }
+            }
+        }
+    }
+}

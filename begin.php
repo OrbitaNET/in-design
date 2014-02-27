@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-        <title>Броско Фитнес - FoxBox.Франчайзинг</title>
+        <title><?= $title; ?>Броско Фитнес - FoxBox.Франчайзинг</title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link rel="stylesheet/less" href="/less/bootstrap.less?v=<?= time(); ?>">

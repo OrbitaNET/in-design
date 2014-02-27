@@ -1,4 +1,5 @@
-<?php require_once('begin.php');?>
+<?php $title = 'Лента событий - '; ?>
+<?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
         <td class="main-sidebar">
@@ -15,14 +16,14 @@
                         <p>Рабочий стол</p>
                     </a>
                 </li>
-                <li class="thumbnail" data-submenu="submenu-common">
-                    <a href="/" class="show text-center">
+                <li class="active thumbnail" data-submenu="submenu-common">
+                    <a href="/site/events.php" class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
-                <li class="active thumbnail" data-submenu="submenu-company">
-                    <a href="/franchisee_list.php" class="show text-center">
+                <li class="thumbnail" data-submenu="submenu-company">
+                    <a href="/cabinet/franchisee_list.php" class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
                     </a>
@@ -101,8 +102,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-common">
-                <li>
+            <ul class="nav nav-pills nav-stacked" id="submenu-common" style="display: block;">
+                <li class="active">
                     <a href="/" class="show text-left">
                         Лента событий
                     </a>
@@ -133,7 +134,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
+            <ul class="nav nav-pills nav-stacked" id="submenu-company">
                 <li class="active">
                     <a href="/" class="show text-left">
                         Франчайзи
@@ -221,7 +222,37 @@
             </ul>
         </td>
         <td id="content">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 events">
+                <h1>
+                    Лента событий
+                </h1>
+                <div class="filter-group-buttons">
+                    <div class="btn-group pull-left" data-toggle="buttons">
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Комментарий
+                        </label>
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Задача
+                        </label>
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Новости
+                        </label>
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Компания
+                        </label>
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Руководства
+                        </label>
+                        <label class="btn btn-link btn-sm active">
+                            <input type="checkbox" checked="true"> Университет
+                        </label>
+                    </div>
+                    <div class="getPeopleList pull-right">
+                        <i></i><label class="btn btn-link btn-sm">Выбрать людей</label>
+                    </div>
+                </div>
+            </div>
         </td>
     </tr>
 </table>
-<?php require_once('end.php');?>
+<?php require_once('../end.php');?>
