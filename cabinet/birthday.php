@@ -222,6 +222,47 @@
             </ul>
         </td>
         <td id="content">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 birthday">
+                <h1>
+                    Дни рождения
+                </h1>
+                <table class="table">
+                    <tr>
+                        <td colspan="3">
+                            <span>Сегодня</span>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td>
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Абакумов Олег Александрович</h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td>
+                            <div class="pull-left">8 (927) 443 51 81</div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </td>
     </tr>
 </table>
