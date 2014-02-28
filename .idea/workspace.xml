@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/enterprise.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/franchisee_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/filter-group-buttons-get-list-people.png" afterPath="$PROJECT_DIR$/images/filter-group-buttons-get-list-people.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/birthday.php" afterPath="$PROJECT_DIR$/cabinet/birthday.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap_custom.less" afterPath="$PROJECT_DIR$/less/bootstrap_custom.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/events.php" afterPath="$PROJECT_DIR$/site/events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_list.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="public_html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,7 +82,7 @@
       <file leaf-file-name="bootstrap_custom.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="363" column="65" selection-start="13051" selection-end="13051" vertical-scroll-proportion="0.9917744" vertical-offset="5327" max-vertical-offset="7021">
+            <state line="33" column="14" selection-start="919" selection-end="919" vertical-scroll-proportion="0.29964748" vertical-offset="306" max-vertical-offset="7038">
               <folding />
             </state>
           </provider>
@@ -671,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="363" column="65" selection-start="13051" selection-end="13051" vertical-scroll-proportion="0.9917744" vertical-offset="5327" max-vertical-offset="7021">
+        <state line="33" column="14" selection-start="919" selection-end="919" vertical-scroll-proportion="0.29964748" vertical-offset="306" max-vertical-offset="7038">
           <folding />
         </state>
       </provider>
