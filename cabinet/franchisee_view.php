@@ -235,12 +235,106 @@
                     <button type="button" class="delete btn btn-link"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
                 </div>
                 <div class="clearfix"></div>
+                <p><small class="text-muted">Последние изменения 3.02.14 в 16:54</small></p>
+                <div class="clearfix"></div>
                 <ul class="nav nav-tabs">
                     <li class="active"><a>Компания</a></li>
                     <li><a>Сотрудники / <span>8</span></a></li>
                     <li><a>Задачи / <span>1</span></a></li>
                 </ul>
+                <dl class="dl-horizontal col-lg-12 col-md-12 col-sm-12 col-xs-12 info">
+                    <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Статус</dt>
+                    <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9"><span class="badge label-primary">Действующий</span></dd>
+                    <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Название</dt>
+                    <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">ООО "Ромашка"</dd>
+                    <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Дата присоединения</dt>
+                    <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">16 января 2012 года</dd>
+                    <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Дата присоединения</dt>
+                    <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        Юридический адрес: РФ, г.Санкт-Петербург, ул.Раменская, 3<br>ИНН: 7707083893<br>КПП: 526002001<br>БИК: 042202603<br>Корсчет: 30101810900000000603 в ГРКЦ ГУ Банка России по Нижегородской обл.<br>ОКВЭД: 65.12<br>ОКПО: 09116916
+                    </dd>
+                </dl>
+                <hr class="clearfix">
+                <h1>
+                    Собственники
+                </h1>
+                <div class="clearfix"></div>
+                <div class="media col-lg-12 col-md-12 col-sm-12 col-xs-12 user">
+                    <img class="media-object pull-left" src="/images/no_photo_200.png" width="70px"/>
+                    <div class="media-body">
+                        <dl class="dl-horizontal col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">ФИО</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">Абакумов Олег Александрович</dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">День рождения</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">16 января 2012 года</dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Личный E-mail</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9"><a href="mailto:index@brosko.ru">index@brosko.ru</a></dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Телефон</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">+7 927 443 51 81<br>+7 927 443 51 81</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="media col-lg-12 col-md-12 col-sm-12 col-xs-12 user">
+                    <img class="media-object pull-left" src="/images/no_photo_200.png" width="70px"/>
+                    <div class="media-body">
+                        <dl class="dl-horizontal col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">ФИО</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">Абакумов Олег Александрович</dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">День рождения</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">16 января 2012 года</dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Личный E-mail</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9"><a href="mailto:index@brosko.ru">index@brosko.ru</a></dd>
+                            <dt class="text-muted col-lg-3 col-md-3 col-sm-3 col-xs-3">Телефон</dt>
+                            <dd class="col-lg-9 col-md-9 col-sm-9 col-xs-9">+7 927 443 51 81<br>+7 927 443 51 81</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <hr class="clearfix">
+                <h1>
+                    Предприятия
+                </h1>
+                <div class="media col-lg-4 col-md-4 col-sm-4 col-xs-4 address">
+                    <div class="media-object pull-left">1.</div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">Санкт-Петербург</p></small>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div class="media col-lg-4 col-md-4 col-sm-4 col-xs-4 address">
+                    <div class="media-object pull-left">2.</div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">Санкт-Петербург</p></small>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div class="media col-lg-4 col-md-4 col-sm-4 col-xs-4 address">
+                    <div class="media-object pull-left">3.</div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">Санкт-Петербург</p></small>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div class="media col-lg-4 col-md-4 col-sm-4 col-xs-4 address">
+                    <div class="media-object pull-left">4.</div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">Санкт-Петербург</p></small>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div id="map" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
+                </div>
+                <script src="//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
             </div>
         </td>
     </tr>

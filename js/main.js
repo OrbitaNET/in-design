@@ -5,7 +5,22 @@
 */
 var current = $('.main-sidebar li.active');
 var myTimer = false;
+var myMap;
+
+function init () {
+    myMap = new ymaps.Map(
+        'map',
+        {
+            center: [55.76, 37.64],
+            zoom: 10
+        }
+    );
+}
+
 $(document).ready (function(){
+
+    ymaps.ready(init);
+
     $('.getPeopleList').on('click', function(){
         if (!$(this).hasClass('active')) {
             $(this).addClass('active');

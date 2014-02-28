@@ -269,7 +269,7 @@
                         </td>
                         <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="edit-button pull-right">
-                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                                <i></i><label class="btn btn-link btn-sm">Редактировать</label>
                             </div>
                             <div class="clearfix"></div>
                         </td>
@@ -291,7 +291,7 @@
                         </td>
                         <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="edit-button pull-right">
-                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                                <i></i><label class="btn btn-link btn-sm">Редактировать</label>
                             </div>
                             <div class="clearfix"></div>
                         </td>
@@ -313,7 +313,7 @@
                         </td>
                         <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="edit-button pull-right">
-                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                                <i></i><label class="btn btn-link btn-sm">Редактировать</label>
                             </div>
                             <div class="clearfix"></div>
                         </td>
@@ -335,7 +335,7 @@
                         </td>
                         <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="edit-button pull-right">
-                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                                <i></i><label class="btn btn-link btn-sm">Редактировать</label>
                             </div>
                             <div class="clearfix"></div>
                         </td>
@@ -357,7 +357,7 @@
                         </td>
                         <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="edit-button pull-right">
-                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                                <i></i><label class="btn btn-link btn-sm">Редактировать</label>
                             </div>
                             <div class="clearfix"></div>
                         </td>

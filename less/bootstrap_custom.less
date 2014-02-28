@@ -28,9 +28,17 @@
     border-color: @brand-danger;
 }
 
+.badge {
+    .border-radius(0);
+    padding: @padding-base-vertical @padding-base-horizontal;
+}
+
 a {
     color: rgba(77, 77, 79, 1);
     cursor: pointer;
+    border: 0;
+}
+li {
     border: 0;
 }
 
@@ -370,6 +378,9 @@ h4 {
                 }
             }
             .franchisee {
+                a:hover {
+                    color: rgba(73, 169, 66, 1);
+                }
                 .btn-group {
                     margin-top: 15px;
                     button {
@@ -402,6 +413,45 @@ h4 {
                             color: @link-color;
                         }
                     }
+                }
+                dl.info {
+                    margin: 20px 0;
+                    dt {
+                        width: 25%;
+                        text-align: left;
+                        font-weight: normal;
+                        line-height: 2em;
+                    }
+                    dd {
+                        line-height: 2em;
+                        margin-left: 0;
+                    }
+                }
+                .user {
+                    dl {
+                        margin: 0 0 20px;
+                        dt {
+                            width: 25%;
+                            text-align: left;
+                            font-weight: normal;
+                            line-height: 2em;
+                        }
+                        dd {
+                            line-height: 2em;
+                            margin-left: 0;
+                        }
+                    }
+                }
+                .address {
+                    .media-body {
+                        h4.media-heading {
+                            margin: 1px 0 10px;
+                        }
+                    }
+                }
+                #map {
+                    height: 250px;
+                    margin-bottom: 30px;
                 }
             }
         }
