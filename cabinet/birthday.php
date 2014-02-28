@@ -54,7 +54,7 @@
                 </li>
             </ul>
         </td>
-        <td class="second-sidebar col-lg-2 col-md-2">
+        <td class="second-sidebar col-lg-2 col-md-2"  style="display: table-cell;">
             <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                 <li>
                     <a href="/" class="show text-left">

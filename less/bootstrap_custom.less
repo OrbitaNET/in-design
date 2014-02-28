@@ -108,7 +108,7 @@ h4 {
                 }
                 li:hover, li:active, li.active {
                     a {
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: @link-color;
                         color: rgba(255, 255, 255, 1);
                     }
                 }
@@ -128,13 +128,17 @@ h4 {
         max-width: 1200px;
         height: 100%;
         table-layout: fixed;
+        position: relative;
         .second-sidebar {
+            display: none;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: @link-color;
             vertical-align: top;
             padding: 0;
+            width: 200px;
             ul.nav.nav-pills.nav-stacked {
                 display: none;
+                width: 200px;
                 li {
                     .border-radius(0);
                     padding: 0;
@@ -161,6 +165,11 @@ h4 {
                     }
                 }
             }
+        }
+        .second-sidebar.absolute {
+            position: absolute !important;
+            top: 0px;
+            left: 100px;
         }
         #content {
             vertical-align: top;

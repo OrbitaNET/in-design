@@ -2,7 +2,7 @@
 <?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
-        <td class="main-sidebar">
+        <td class="main-sidebar relative">
             <ul class="nav nav-pills nav-stacked">
                 <li class="thumbnail add" data-submenu="submenu-plus">
                     <a href="/" class="show text-center">
@@ -54,7 +54,10 @@
                 </li>
             </ul>
         </td>
-        <td class="second-sidebar col-lg-2 col-md-2">
+        <td class="second-sidebar col-lg-2 col-md-2 relative" style="display: table-cell;">
+            <ul class="nav nav-pills nav-stacked" id="submenu-guides"></ul>
+            <ul class="nav nav-pills nav-stacked" id="submenu-university"></ul>
+            <ul class="nav nav-pills nav-stacked" id="submenu-desktop"></ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                 <li>
                     <a href="/" class="show text-left">
