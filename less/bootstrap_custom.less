@@ -37,6 +37,7 @@ h1 {
     font-size: floor((@font-size-base * 1.6)); // ~22px
     color: @link-color;
 }
+
 h4 {
     font-size: floor((@font-size-base * 1.1)); // ~15px
 }
@@ -115,6 +116,7 @@ h4 {
         }
     }
 }
+
 .wrap {
     height: 100%;
     position: absolute;
@@ -169,6 +171,14 @@ h4 {
                 table {
                     tr {
                         td {
+                            border: 0;
+                            a {
+                                text-decoration: underline;
+                            }
+                            a:hover, a:active {
+                                background-color: transparent;
+                                color: rgba(73, 169, 66, 1);
+                            }
                             .media {
                                 small {
                                     font-size: 80%;
@@ -178,19 +188,30 @@ h4 {
                             .help-block {
                                 margin-top: 0;
                             }
-                            .write-message {
-                                padding: 0 10px;
-                                label {
-                                    .border-radius(0);
-                                    margin: 0 20px 0 10px;
-                                    background-color: transparent;
-                                    border: 0;
-                                    border-bottom: 1px dashed rgba(77, 77, 79, 1);
-                                    .box-shadow(none);
-                                    color: @link-color;
-                                    padding: 5px 0;
-                                    text-decoration: none;
+                            .phone {
+                                span {
+                                    color: rgba(167, 169, 172, 1);
+                                    position: relative;
+                                    top: 4px;
                                 }
+                                label {
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                }
+                            }
+                            label {
+                                .border-radius(0);
+                                margin: 0 0 0 10px;
+                                background-color: transparent;
+                                border: 0;
+                                .box-shadow(none);
+                                color: @link-color;
+                                padding: 5px 0;
+                                text-decoration: none;
+                                cursor: default;
+                                text-decoration: underline;
+                            }
+                            .write-message {
                                 i {
                                     background: url("/images/filter-group-buttons-get-list-people.png") no-repeat top center;
                                     height: 14px;
@@ -199,6 +220,24 @@ h4 {
                                     position: relative;
                                     top: 3px;
                                 }
+                                label:hover {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    tr.data {
+                        td {
+                            border: 0;
+                            span {
+                                font-size: 13px;
+                            }
+                            span:first-child {
+                                padding: 5px 10px;
+                                background-color: rgb(239, 239, 240);
+                                margin-right: 10px;
                             }
                         }
                     }

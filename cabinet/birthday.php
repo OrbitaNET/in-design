@@ -226,18 +226,18 @@
                 <h1>
                     Дни рождения
                 </h1>
-                <table class="table">
-                    <tr>
+                <table class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table">
+                    <tr class="data">
                         <td colspan="3">
                             <span>Сегодня</span>
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td>
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Абакумов Олег Александрович</h4>
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
                                     <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
                                     <div class="clearfix"></div>
                                     <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
@@ -247,13 +247,247 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="text-muted">Гороскоп</div>
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td>
-                            <div class="pull-left">8 (927) 443 51 81</div>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="data">
+                        <td colspan="3">
+                            <span>Завтра</span>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="data">
+                        <td colspan="3">
+                            <span>25 мая</span><span>через 5 дней</span>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left write-message">
+                                <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                    </tr>
+                    <tr class="data">
+                        <td colspan="3">
+                            <span>26 мая</span><span>через 6 дней</span>
+                        </td>
+                    </tr>
+                    <tr class="hover">
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="media">
+                                <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                    <div class="pull-left">24 года</div><div class="text-muted pull-left"><small>(23.07.1990)</small></div>
+                                    <div class="clearfix"></div>
+                                    <div class="pull-left"><a class="text-muted">ООО "Ромашка"</a></div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-muted pull-left">Охранник</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-muted">Гороскоп</div>
+                            <div class="clearfix"></div>
+                            Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
+                        </td>
+                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="pull-left phone">
+                                <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
+                            </div>
                             <div class="clearfix"></div>
                             <div class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
