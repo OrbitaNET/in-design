@@ -19,7 +19,10 @@ function init () {
 
 $(document).ready (function(){
 
-    ymaps.ready(init);
+    if ($("#map").length == 1) {
+        ymaps.ready(init);
+    }
+
 
     $('.getPeopleList').on('click', function(){
         if (!$(this).hasClass('active')) {
