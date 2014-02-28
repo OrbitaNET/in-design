@@ -5,7 +5,7 @@
         <td class="main-sidebar absolute">
             <ul class="nav nav-pills nav-stacked">
                 <li class="thumbnail add" data-submenu="submenu-plus">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-plus"></i>
                         <p>Добавить</p>
                     </a>
@@ -17,19 +17,19 @@
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-common">
-                    <a href="/site/events.php" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-company">
-                    <a href="/cabinet/franchisee_list.php" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-news">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-news"></i>
                         <p>Новости</p>
                     </a>
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-settings">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-settings"></i>
                         <p>Настройки</p>
                     </a>
@@ -55,7 +55,6 @@
             </ul>
         </td>
         <td class="second-sidebar col-lg-2 col-md-2 absolute">
-            <ul class="nav nav-pills nav-stacked empty"></ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                 <li>
                     <a href="/" class="show text-left">
@@ -103,9 +102,9 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-common" style="display: block;">
+            <ul class="nav nav-pills nav-stacked" id="submenu-common">
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/site/events.php"  class="show text-left">
                         Лента событий
                     </a>
                 </li>
@@ -137,7 +136,7 @@
             </ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-company">
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/cabinet/franchisee_list.php" class="show text-left">
                         Франчайзи
                     </a>
                 </li>
@@ -147,7 +146,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/cabinet/birthday.php" class="show text-left">
                         Дни рождения
                     </a>
                 </li>

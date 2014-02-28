@@ -139,7 +139,7 @@
             </ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
                 <li class="active">
-                    <a href="/cabinet/franchisee_list.php" class="show text-left">
+                    <a href="/" class="show text-left">
                         Франчайзи
                     </a>
                 </li>
@@ -149,7 +149,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/cabinet/birthday.php" class="show text-left">
+                    <a href="/" class="show text-left">
                         Дни рождения
                     </a>
                 </li>

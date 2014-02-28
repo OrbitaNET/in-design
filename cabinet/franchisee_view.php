@@ -1,4 +1,4 @@
-<?php $title = 'Лента событий - '; ?>
+<?php $title = 'Франчайзи - '; ?>
 <?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
@@ -16,13 +16,13 @@
                         <p>Рабочий стол</p>
                     </a>
                 </li>
-                <li class="active thumbnail" data-submenu="submenu-common">
+                <li class="thumbnail" data-submenu="submenu-common">
                     <a class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
-                <li class="thumbnail" data-submenu="submenu-company">
+                <li class="active thumbnail" data-submenu="submenu-company">
                     <a class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
@@ -54,7 +54,7 @@
                 </li>
             </ul>
         </td>
-        <td class="second-sidebar col-lg-2 col-md-2 relative active" style="display: table-cell;">
+        <td class="second-sidebar col-lg-2 col-md-2 active relative" style="display: table-cell;">
             <ul class="nav nav-pills nav-stacked" id="submenu-guides"></ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-university"></ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-desktop"></ul>
@@ -105,8 +105,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-common" style="display: block;">
-                <li class="active">
+            <ul class="nav nav-pills nav-stacked" id="submenu-common">
+                <li>
                     <a href="/" class="show text-left">
                         Лента событий
                     </a>
@@ -137,8 +137,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-company">
-                <li>
+            <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
+                <li class="active">
                     <a href="/cabinet/franchisee_list.php" class="show text-left">
                         Франчайзи
                     </a>
@@ -225,108 +225,22 @@
             </ul>
         </td>
         <td id="content">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 events">
-                <h1>
-                    Лента событий
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 franchisee">
+                <h1 class="pull-left">
+                    Абакумов Олег Александрович
                 </h1>
-                <div class="filter-group-buttons">
-                    <div class="btn-group pull-left" data-toggle="buttons">
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Комментарий
-                        </label>
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Задача
-                        </label>
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Новости
-                        </label>
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Компания
-                        </label>
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Руководства
-                        </label>
-                        <label class="btn btn-link btn-sm active">
-                            <input type="checkbox" checked="true"> Университет
-                        </label>
-                    </div>
-                    <div class="getPeopleList pull-right">
-                        <i></i><label class="btn btn-link btn-sm">Выбрать людей</label>
-                    </div>
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
+                    <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-arrow-right"></span>Переместить</button>
+                    <button type="button" class="delete btn btn-link"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
                 </div>
                 <div class="clearfix"></div>
-                <div class="lenta-event">
-                    <div class="media">
-                        <div class="media-object pull-left add-task"></div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Поставлена задача <a>Заплатить роялти</a></h4>
-                            <div class="bs-callout bs-callout-success">
-                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
-                                <div class="help-block"><small>+ вложенные файлы</small></div>
-                            </div>
-                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
-                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
-                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
-                            <div class="feedback pull-left">
-                                <div class="comment-block pull-left">
-                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
-                                </div>
-                                <a class="pull-left">Комментировать</a>
-                                <a class="pull-left">Ответить</a>
-                                <a class="delete pull-left">Удалить</a>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="media-object pull-left ready-task"></div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Выполнена задача <a>Заплатить роялти</a></h4>
-                            <div class="bs-callout bs-callout-success">
-                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
-                                <div class="help-block"><small>+ вложенные файлы</small></div>
-                            </div>
-                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
-                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
-                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
-                            <div class="feedback pull-left">
-                                <div class="comment-block pull-left">
-                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
-                                </div>
-                                <a class="pull-left">Комментировать</a>
-                                <a class="pull-left">Ответить</a>
-                                <a class="delete pull-left">Удалить</a>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="media-object pull-left edit-task"></div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Изменена задача <a>Заплатить роялти</a></h4>
-                            <div class="bs-callout bs-callout-success">
-                                Срочно, иначе отключат нас от нашего любимого интранета ФоксБокс. И будет жопа в нашей компании. Счета возьми в бухгалтерии.
-                                <div class="help-block"><small>+ вложенные файлы</small></div>
-                            </div>
-                            <p>Автор <a>Понин Дмитрий Владимирович</a></p>
-                            <p>Ответственный <a>Понин Дмитрий Владимирович</a></p>
-                            <div class="help-block"><p><small>Пятница, 7 мая 2014, 9:01</small></p></div>
-                            <div class="feedback pull-left">
-                                <div class="comment-block pull-left">
-                                    <span class="glyphicon glyphicon-comment"></span><span class="count">30</span>
-                                </div>
-                                <a class="pull-left">Комментировать</a>
-                                <a class="pull-left">Ответить</a>
-                                <a class="delete pull-left">Удалить</a>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a>Компания</a></li>
+                    <li><a>Сотрудники / <span>8</span></a></li>
+                    <li><a>Задачи / <span>1</span></a></li>
+                </ul>
+
             </div>
         </td>
     </tr>

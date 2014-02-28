@@ -2,10 +2,10 @@
 <?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
-        <td class="main-sidebar">
+        <td class="main-sidebar relative">
             <ul class="nav nav-pills nav-stacked">
                 <li class="thumbnail add" data-submenu="submenu-plus">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-plus"></i>
                         <p>Добавить</p>
                     </a>
@@ -17,19 +17,19 @@
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-common">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
                 <li class="active thumbnail" data-submenu="submenu-company">
-                    <a href="/cabinet/franchisee_list.php" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-news">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-news"></i>
                         <p>Новости</p>
                     </a>
@@ -47,14 +47,17 @@
                     </a>
                 </li>
                 <li class="thumbnail" data-submenu="submenu-settings">
-                    <a href="/" class="show text-center">
+                    <a class="show text-center">
                         <i class="sidebar-settings"></i>
                         <p>Настройки</p>
                     </a>
                 </li>
             </ul>
         </td>
-        <td class="second-sidebar col-lg-2 col-md-2"  style="display: table-cell;">
+        <td class="second-sidebar col-lg-2 col-md-2 active relative"  style="display: table-cell;">
+            <ul class="nav nav-pills nav-stacked" id="submenu-guides"></ul>
+            <ul class="nav nav-pills nav-stacked" id="submenu-university"></ul>
+            <ul class="nav nav-pills nav-stacked" id="submenu-desktop"></ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-plus">
                 <li>
                     <a href="/" class="show text-left">
@@ -104,7 +107,7 @@
             </ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-common">
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/site/events.php"  class="show text-left">
                         Лента событий
                     </a>
                 </li>
@@ -136,7 +139,7 @@
             </ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/cabinet/franchisee_list.php" class="show text-left">
                         Франчайзи
                     </a>
                 </li>
@@ -146,7 +149,7 @@
                     </a>
                 </li>
                 <li class="active">
-                    <a href="/" class="show text-left">
+                    <a href="/cabinet/birthday.php" class="show text-left">
                         Дни рождения
                     </a>
                 </li>
@@ -233,7 +236,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -252,7 +255,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -269,7 +272,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -288,7 +291,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -300,7 +303,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -319,7 +322,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -331,7 +334,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -350,7 +353,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -367,7 +370,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -386,7 +389,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -398,7 +401,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -417,7 +420,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -429,7 +432,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -448,7 +451,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
@@ -465,7 +468,7 @@
                         </td>
                     </tr>
                     <tr class="hover">
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <td class="col-lg-5 col-md-5 col-sm-4 col-xs-5">
                             <div class="media">
                                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
                                 <div class="media-body">
@@ -484,7 +487,7 @@
                             <div class="clearfix"></div>
                             Обезьяна, имеющая влияние. Сможет удержать Тигра за хвост
                         </td>
-                        <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <td class="col-lg-3 col-md-3 col-sm-4 col-xs-3">
                             <div class="pull-left phone">
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>

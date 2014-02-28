@@ -222,9 +222,9 @@ h4 {
                             }
                             .write-message {
                                 i {
-                                    background: url("/images/filter-group-buttons-get-list-people.png") no-repeat top center;
+                                    background: url("/images/write-message.png") no-repeat top center;
                                     height: 14px;
-                                    width: 14px;
+                                    width: 18px;
                                     display: inline-block;
                                     position: relative;
                                     top: 3px;
@@ -233,6 +233,11 @@ h4 {
                                     background-color: transparent;
                                     color: rgba(73, 169, 66, 1);
                                     cursor: pointer;
+                                }
+                            }
+                            .write-message:hover, .write-message:active {
+                                i {
+                                    background: url("/images/write-message.png") no-repeat bottom center;
                                 }
                             }
                         }
@@ -248,6 +253,152 @@ h4 {
                                 background-color: rgb(239, 239, 240);
                                 margin-right: 10px;
                             }
+                        }
+                    }
+                }
+            }
+            .franchisee_list {
+                ul.nav.nav-tabs {
+                    padding-left: 10px;
+                    font-size: 13px;
+                    li {
+                        a {
+                            .border-radius(0);
+                            padding: @padding-base-vertical @padding-base-horizontal;
+                            text-decoration: underline;
+                        }
+                        a:hover, a:active {
+                            color: rgba(73, 169, 66, 1);
+                        }
+                    }
+                    li.active{
+                        a {
+                            text-decoration: none;
+                        }
+                        a:hover, a:active {
+                            color: @link-color;
+                        }
+                    }
+                }
+                table {
+                    margin: 20px 0;
+                    thead {
+                        tr {
+                            border-bottom: 1px solid @gray-lighter;
+                            th {
+                                line-height: 33px;
+                                border-bottom: 0;
+                                padding-top: 0;
+                                padding-bottom: 15px;
+                                a {
+                                    text-decoration: underline;
+                                    font-weight: normal;
+                                }
+                                a:hover, a:active {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                }
+                                #sort-by-name {
+                                    margin-right: 12px;
+                                }
+                                input[type='text'] {
+                                    margin-top: -8px;
+                                    border: 0;
+                                    .box-shadow(none);
+                                    background-color: rgba(239, 239, 240, 1);
+                                    font-weight: normal;
+                                    .border-radius(0);
+                                    color: @link-color;
+                                }
+                            }
+                        }
+                    }
+                    tr {
+                        border-bottom: 1px solid @gray-lighter;
+                        td {
+                            border: 0;
+                            a {
+                                text-decoration: underline;
+                            }
+                            a:hover, a:active {
+                                background-color: transparent;
+                                color: rgba(73, 169, 66, 1);
+                            }
+                            .media {
+                                .address {
+                                    margin-left: 20px;
+                                    line-height: 2.2em;
+                                    font-size: 13px;
+                                }
+                            }
+                            .edit-button {
+                                margin-top: -4px;
+                                label {
+                                    .border-radius(0);
+                                    margin: 0 0 0 10px;
+                                    background-color: transparent;
+                                    border: 0;
+                                    .box-shadow(none);
+                                    color: @link-color;
+                                    padding: 5px 0;
+                                    text-decoration: none;
+                                    cursor: default;
+                                    text-decoration: underline;
+                                }
+                                i {
+                                    background: url("/images/edit-button.png") no-repeat top center;
+                                    height: 14px;
+                                    width: 14px;
+                                    display: inline-block;
+                                    position: relative;
+                                    top: 3px;
+                                }
+                                label:hover {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                    cursor: pointer;
+                                }
+                            }
+                            .edit-button:hover, .edit-button:active {
+                                i {
+                                    background: url("/images/edit-button.png") no-repeat bottom center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .franchisee {
+                .btn-group {
+                    margin-top: 15px;
+                    button {
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+                    button:hover, button:active {
+                        color: rgba(73, 169, 66, 1);
+                    }
+                }
+                ul.nav.nav-tabs {
+                    padding-left: 10px;
+                    font-size: 13px;
+                    li {
+                        a {
+                            .border-radius(0);
+                            padding: @padding-base-vertical @padding-base-horizontal;
+                            text-decoration: underline;
+                        }
+                        a:hover, a:active {
+                            color: rgba(73, 169, 66, 1);
+                        }
+                    }
+                    li.active{
+                        a {
+                            text-decoration: none;
+                        }
+                        a:hover, a:active {
+                            color: @link-color;
                         }
                     }
                 }
