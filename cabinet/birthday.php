@@ -260,9 +260,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -296,9 +296,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -327,9 +327,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -358,9 +358,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -394,9 +394,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -425,9 +425,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -456,9 +456,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>
@@ -492,9 +492,9 @@
                                 <span class="glyphicon glyphicon-phone"></span><label class="btn btn-link btn-sm">8 (927) 443 51 81</label>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="pull-left write-message">
+                            <a class="pull-left write-message">
                                 <i></i><label class="btn btn-link btn-sm">Написать сообщение</label>
-                            </div>
+                            </a>
                             <div class="clearfix"></div>
                         </td>
                     </tr>

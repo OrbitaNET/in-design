@@ -278,9 +278,57 @@
                         8 (927) 443 51 81
                     </td>
                     <td class="col-lg-2 col-md-2 col-sm-3 col-xs-2">
-                        <div class="edit-button pull-right">
+                        <a class="edit-button pull-right">
                             <i></i><label class="btn btn-link btn-sm">Редактировать</label>
+                        </a>
+                        <div class="clearfix"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 col-md-6 col-sm-5 col-xs-6">
+                        <div class="media">
+                            <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                <div class="text-muted pull-left">Охранник</div>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <a href="mailto:orbitanet90@gmail.com">orbitanet90@gmail.com</a>
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        8 (927) 443 51 81
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-3 col-xs-2">
+                        <a class="edit-button pull-right">
+                            <i></i><label class="btn btn-link btn-sm">Редактировать</label>
+                        </a>
+                        <div class="clearfix"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 col-md-6 col-sm-5 col-xs-6">
+                        <div class="media">
+                            <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                <div class="text-muted pull-left">Охранник</div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <a href="mailto:orbitanet90@gmail.com">orbitanet90@gmail.com</a>
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        8 (927) 443 51 81
+                    </td>
+                    <td class="col-lg-2 col-md-2 col-sm-3 col-xs-2">
+                        <a class="edit-button pull-right">
+                            <i></i><label class="btn btn-link btn-sm">Редактировать</label>
+                        </a>
                         <div class="clearfix"></div>
                     </td>
                 </tr>
