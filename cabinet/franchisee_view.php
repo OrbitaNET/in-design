@@ -331,9 +331,7 @@
                         <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
                     </div>
                 </div>
-                <div id="map" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                </div>
+                <div id="map" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
                 <script src="//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
             </div>
         </td>

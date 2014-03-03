@@ -549,6 +549,160 @@ h4 {
                     }
                 }
             }
+            .enterprise {
+                h1 {
+                    margin-top: 0;
+                }
+                .breadcrumbs {
+                    margin: 17px 0 5px;
+                }
+                a:hover {
+                    color: rgba(73, 169, 66, 1);
+                }
+                .btn-group {
+                    button {
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+                    button:hover, button:active {
+                        color: rgba(73, 169, 66, 1);
+                    }
+                    button.delete:hover {
+                        color: @brand-danger;
+                    }
+                }
+                ul.nav.nav-tabs {
+                    padding-left: 10px;
+                    font-size: 13px;
+                    li {
+                        a {
+                            .border-radius(0);
+                            padding: @padding-base-vertical @padding-base-horizontal;
+                            text-decoration: underline;
+                        }
+                        a:hover, a:active {
+                            color: rgba(73, 169, 66, 1);
+                        }
+                    }
+                    li.active{
+                        a {
+                            text-decoration: none;
+                        }
+                        a:hover, a:active {
+                            color: @link-color;
+                        }
+                    }
+                }
+                dl.info {
+                    margin: 20px 0;
+                    dt {
+                        width: 25%;
+                        text-align: left;
+                        font-weight: normal;
+                        line-height: 2em;
+                    }
+                    dd {
+                        line-height: 2em;
+                        margin-left: 0;
+                    }
+                }
+                #map {
+                    height: 250px;
+                    margin-bottom: 30px;
+                }
+                .add_comment {
+                    padding: @padding-base-vertical @padding-base-horizontal;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    background-color: rgba(239, 239, 240, 1);
+                    textarea {
+                        width: 100%;
+                        border: 0;
+                        outline: 0;
+                        resize: none;
+                        padding: @padding-base-vertical @padding-base-horizontal;
+                        font-size: 13px;
+                    }
+                    .js-preupload.btn {
+                        width: 135px;
+                        height: 34px;
+                        cursor: default;
+                        padding-top: 2px;
+                        span {
+                            font-size: 13px;
+                            margin-left: -2px;
+                            cursor: pointer;
+                        }
+                        input {
+                            width: 115px;
+                            z-index: 2;
+                            cursor: default;
+                            opacity: 0;
+                            filter: alpha(opacity=0);
+                            height: 28px;
+                            overflow: hidden;
+                            margin: -25px 0 0 -3px;
+                        }
+                    }
+                    .js-preupload.btn:hover {
+                        color: rgba(73, 169, 66, 1);
+                    }
+                    button {
+                        margin-left: 10px;
+                        background-color: rgba(73, 169, 66, 1);
+                        color: #fff;
+                        .border-radius(0);
+                        border: 0;
+                    }
+                }
+                .comment {
+                    margin: 20px 0;
+                    .comment_text.well {
+                        .border-radius(0);
+                        margin-bottom: 0;
+                        background-color: rgba(239, 239, 240, 1);
+                        border: 0;
+                        .box-shadow(none);
+                    }
+                    .comment_text_triangle {
+                        background: url("/images/comment-triangle.png") no-repeat bottom left rgba(239, 239, 240, 1);
+                        height: 9px;
+                    }
+                    h4 {
+                        a {
+                            color: rgba(73, 169, 66, 1);
+                            font-size: 13px;
+                        }
+                    }
+                    .feedback {
+                        font-size: 13px;
+                        a {
+                            margin-right: 20px;
+                        }
+                        a.delete {
+                            margin-right: 0;
+                        }
+                        span.text-muted {
+                            margin-right: 20px;
+                        }
+                        a.delete:hover, a.delete:active {
+                            color: @brand-danger;
+                        }
+                    }
+                }
+                .comment_all {
+                    margin: 20px 0 10px;
+                    a {
+                        padding: @padding-large-vertical @padding-large-horizontal;
+                        background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.15);
+                        color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 1);
+                    }
+                    a:hover {
+                        background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.25);
+                    }
+                }
+            }
         }
     }
 }
