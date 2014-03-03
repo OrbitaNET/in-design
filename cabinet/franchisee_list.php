@@ -223,6 +223,7 @@
                     </a>
                 </li>
             </ul>
+            <a class="text-center toTop"><p class="glyphicon glyphicon-chevron-up"></p>Наверх</a>
         </td>
         <td id="content">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 franchisee_list">

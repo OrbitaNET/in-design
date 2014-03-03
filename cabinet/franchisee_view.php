@@ -53,6 +53,7 @@
                     </a>
                 </li>
             </ul>
+            <a class="text-center toTop"><p class="glyphicon glyphicon-chevron-up"></p>Наверх</a>
         </td>
         <td class="second-sidebar col-lg-2 col-md-2 active relative" style="display: table-cell;">
             <ul class="nav nav-pills nav-stacked" id="submenu-guides"></ul>
