@@ -7,7 +7,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link rel="stylesheet/less" href="/less/bootstrap.less?v=<?= time(); ?>">
-        <script type="text/javascript" src="/js/less-1.6.3.min.js"></script>
+
         <link rel="apple-touch-icon" sizes="57x57" href="http://brosko.ru/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="114x114" href="http://brosko.ru/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon" sizes="72x72" href="http://brosko.ru/apple-touch-icon-72x72.png">
@@ -22,6 +22,10 @@
         <link rel="icon" type="image/png" href="http://brosko.ru/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="http://brosko.ru/favicon-16x16.png" sizes="16x16">
         <link rel="shortcut icon" href="http://brosko.ru/favicon.ico">
+        <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="/js/less-1.6.3.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/css/dropdown/style.css">
     </head>
     <body>
         <div class="background"></div>
