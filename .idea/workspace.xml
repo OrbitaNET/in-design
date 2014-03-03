@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/birthday.php" afterPath="$PROJECT_DIR$/cabinet/birthday.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/enterprise.php" afterPath="$PROJECT_DIR$/cabinet/enterprise.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/events.php" afterPath="$PROJECT_DIR$/site/events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_list.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_view.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main-sidebar.less" afterPath="$PROJECT_DIR$/less/main-sidebar.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
@@ -31,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="51" selection-start="4320" selection-end="4320" vertical-scroll-proportion="0.0" vertical-offset="1171" max-vertical-offset="2091">
+            <state line="109" column="37" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.6799557" vertical-offset="1171" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -49,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="birthday.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="birthday.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.59293044" vertical-offset="415" max-vertical-offset="8704">
+            <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-20.0" vertical-offset="415" max-vertical-offset="8704">
               <folding>
                 <marker date="1393849246899" expanded="true" signature="271:460" placeholder="..." />
                 <marker date="1393849246899" expanded="true" signature="320:438" placeholder="..." />
@@ -108,7 +103,16 @@
       <file leaf-file-name="bootstrap_custom.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="551" column="19" selection-start="20366" selection-end="20366" vertical-scroll-proportion="60.423077" vertical-offset="10938" max-vertical-offset="12121">
+            <state line="551" column="19" selection-start="20366" selection-end="20366" vertical-scroll-proportion="46.692307" vertical-offset="10581" max-vertical-offset="12121">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-sidebar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="31" selection-start="3681" selection-end="3681" vertical-scroll-proportion="-24.576923" vertical-offset="1061" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -144,12 +148,12 @@
         <option value="$PROJECT_DIR$/cabinet/users.php" />
         <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
         <option value="$PROJECT_DIR$/cabinet/enterprise.php" />
-        <option value="$PROJECT_DIR$/less/main-sidebar.less" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/cabinet/franchisee_view.php" />
         <option value="$PROJECT_DIR$/site/events.php" />
         <option value="$PROJECT_DIR$/cabinet/franchisee_list.php" />
         <option value="$PROJECT_DIR$/cabinet/birthday.php" />
+        <option value="$PROJECT_DIR$/less/main-sidebar.less" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -276,7 +280,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Crunch/Crunch/Crunch.exe" />
-    <property name="SearchEverywhereHistory" value="bi&#10;main&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;end&#10;cus&#10;cu" />
+    <property name="SearchEverywhereHistory" value="main&#10;bi&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;end&#10;cus&#10;cu" />
     <property name="LayoutCode.rearrangeEntriesLESS" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -642,27 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="551" column="19" selection-start="20366" selection-end="20366" vertical-scroll-proportion="60.423077" vertical-offset="10938" max-vertical-offset="12121">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3442" selection-end="3442" vertical-scroll-proportion="-25.884615" vertical-offset="891" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="51" selection-start="4320" selection-end="4320" vertical-scroll-proportion="0.0" vertical-offset="1171" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="97" selection-start="2364" selection-end="2449" vertical-scroll-proportion="-14.923077" vertical-offset="547" max-vertical-offset="5559">
@@ -696,7 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.59293044" vertical-offset="415" max-vertical-offset="8704">
+        <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-20.0" vertical-offset="415" max-vertical-offset="8704">
           <folding>
             <marker date="1393849246899" expanded="true" signature="271:460" placeholder="..." />
             <marker date="1393849246899" expanded="true" signature="320:438" placeholder="..." />
@@ -715,6 +698,27 @@
             <marker date="1393849246899" expanded="true" signature="2139:2333" placeholder="..." />
             <marker date="1393849246899" expanded="true" signature="2188:2311" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="551" column="19" selection-start="20366" selection-end="20366" vertical-scroll-proportion="46.692307" vertical-offset="10581" max-vertical-offset="12121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="31" selection-start="3681" selection-end="3681" vertical-scroll-proportion="-24.576923" vertical-offset="1061" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="37" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.6799557" vertical-offset="1171" max-vertical-offset="2091">
+          <folding />
         </state>
       </provider>
     </entry>
