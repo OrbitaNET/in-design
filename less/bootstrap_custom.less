@@ -457,6 +457,99 @@ h4 {
                     margin-bottom: 30px;
                 }
             }
+            .users {
+                table {
+                    margin: 20px 0;
+                    thead {
+                        tr {
+                            border-bottom: 1px solid @gray-lighter;
+                            th {
+                                line-height: 33px;
+                                border-bottom: 0;
+                                padding-top: 0;
+                                padding-bottom: 15px;
+                                font-weight: normal;
+                                a {
+                                    text-decoration: underline;
+                                    font-weight: normal;
+                                }
+                                a:hover, a:active {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                }
+                                #sort-by-name {
+                                    margin-right: 12px;
+                                }
+                                input[type='text'] {
+                                    margin-top: -8px;
+                                    border: 0;
+                                    .box-shadow(none);
+                                    background-color: rgba(239, 239, 240, 1);
+                                    font-weight: normal;
+                                    .border-radius(0);
+                                    color: @link-color;
+                                }
+                            }
+                            th:first-child {
+                                padding-left: 52px;
+                            }
+                        }
+                    }
+                    tr {
+                        border-bottom: 1px solid @gray-lighter;
+                        td {
+                            border: 0;
+                            a {
+                                text-decoration: underline;
+                            }
+                            a:hover, a:active {
+                                background-color: transparent;
+                                color: rgba(73, 169, 66, 1);
+                            }
+                            .media {
+                                .address {
+                                    margin-left: 20px;
+                                    line-height: 2.2em;
+                                    font-size: 13px;
+                                }
+                            }
+                            .edit-button {
+                                margin-top: -4px;
+                                label {
+                                    .border-radius(0);
+                                    margin: 0 0 0 10px;
+                                    background-color: transparent;
+                                    border: 0;
+                                    .box-shadow(none);
+                                    color: @link-color;
+                                    padding: 5px 0;
+                                    text-decoration: none;
+                                    cursor: default;
+                                    text-decoration: underline;
+                                }
+                                i {
+                                    background: url("/images/edit-button.png") no-repeat top center;
+                                    height: 14px;
+                                    width: 14px;
+                                    display: inline-block;
+                                    position: relative;
+                                    top: 3px;
+                                }
+                                label:hover {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                    cursor: pointer;
+                                }
+                            }
+                            .edit-button:hover, .edit-button:active {
+                                i {
+                                    background: url("/images/edit-button.png") no-repeat bottom center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

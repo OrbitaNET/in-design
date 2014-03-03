@@ -144,7 +144,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/cabinet/users.php" class="show text-left">
                         Сотрудники
                     </a>
                 </li>
