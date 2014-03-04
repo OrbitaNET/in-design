@@ -25,7 +25,7 @@
         <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="/js/less-1.6.3.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="/css/dropdown/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/selectize.bootstrap3.css">
     </head>
     <body>
         <div class="background"></div>

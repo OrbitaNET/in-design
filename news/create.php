@@ -69,7 +69,7 @@
                 <ul class="nav nav-pills nav-stacked" id="submenu-guides"></ul>
                 <ul class="nav nav-pills nav-stacked" id="submenu-university"></ul>
                 <ul class="nav nav-pills nav-stacked" id="submenu-desktop"></ul>
-                <ul class="nav nav-pills nav-stacked" id="submenu-plus">
+                <ul class="nav nav-pills nav-stacked" id="submenu-plus" style="display: block;">
                     <li>
                         <a href="/" class="show text-left">
                             Сотрудника
@@ -148,7 +148,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
+                <ul class="nav nav-pills nav-stacked" id="submenu-company">
                     <li>
                         <a href="/cabinet/franchisee_list.php" class="show text-left">
                             Франчайзи
@@ -236,68 +236,53 @@
                 </ul>
             </td>
             <td id="content">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 news">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 create-news">
                     <h1>
                         Добавить новость
                     </h1>
+                    <hr/>
                     <form role="form">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Категория новости</label>
-                                <div id="dd" class="wrapper-dropdown-2" tabindex="1">Sign in with
-                                    <ul class="dropdown">
-                                        <li class="active"><a href="#"><i class="icon-twitter icon-large"></i>Twitter</a></li>
-                                        <li><a href="#"><i class="icon-github icon-large"></i>Github</a></li>
-                                        <li><a href="#"><i class="icon-facebook icon-large"></i>Facebook</a></li>
-                                    </ul>
-                                </div>
+                            <label><small class="text-muted">Категория новости *</small></label>
+                            <select class="form-control">
+                                <option value="1">Новости франчайзинга</option>
+                                <option value="2">Новости компании</option>
+                                <option value="3">Черновик</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><small class="text-muted">Заголовок *</small></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label><small class="text-muted">Анонс *</small></label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label><small class="text-muted">Фото анонса</small></label>
+                            <div class="js-preupload btn btn-default btn-sm js-fileapi-wrapper">
+                                <span>Загрузить</span>
+                                <input type="file" name="filedata" multiple="">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <label><small class="text-muted">Текст новости *</small></label>
+                            <textarea class="form-control"></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputFile">File input</label>
-                            <input type="file" id="exampleInputFile">
-                            <p class="help-block">Example block-level help text here.</p>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Check me out
-                            </label>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default btn-sm">Сохранить</button>
                     </form>
                 </div>
             </td>
         </tr>
     </table>
-    <script type="text/javascript" src="/js/dropdown/modernizr.custom.js"></script>
+    <script type="text/javascript" src="/js/selectize.js"></script>
     <script type="text/javascript">
-        function DropDown(el) {
-            this.dd = el;
-            this.initEvents();
-        }
-        DropDown.prototype = {
-            initEvents : function() {
-                var obj = this;
-
-                obj.dd.on('click', function(event){
-                    $(this).toggleClass('active');
-                    event.stopPropagation();
+        $(document).ready(function(){
+            $(function() {
+                $('select').selectize({
+                    create: true
                 });
-            }
-        }
-
-        $(function() {
-
-            var dd = new DropDown( $('#dd') );
-
-            $(document).click(function() {
-                // all dropdowns
-                $('.wrapper-dropdown-2').removeClass('active');
             });
-
         });
     </script>
 

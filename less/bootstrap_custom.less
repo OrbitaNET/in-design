@@ -32,6 +32,21 @@
     .border-radius(0);
     padding: @padding-base-vertical @padding-base-horizontal;
 }
+.form-control {
+    .border-radius(0);
+    .box-shadow(none);
+    font-size: 13px;
+}
+.form-control:focus {
+    outline: 0;
+    .box-shadow(none);
+    border: 1px solid rgba(77, 77, 79, 1);
+}
+.form-control.selectize-control {
+    .border-radius(0);
+    .box-shadow(none);
+    font-size: 13px;
+}
 
 a {
     color: rgba(77, 77, 79, 1);
@@ -50,6 +65,52 @@ h1 {
 h4 {
     font-size: floor((@font-size-base * 1.1)); // ~15px
     font-weight: normal;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+    padding: @padding-base-vertical @padding-base-horizontal;
+    font-size: 13px;
+    min-height: 100px;
+}
+.js-preupload.btn {
+    width: 135px;
+    height: 34px;
+    cursor: default;
+    padding-top: 2px;
+    span {
+        font-size: 13px;
+        margin-left: -2px;
+        cursor: default;
+    }
+    input {
+        width: 115px;
+        z-index: 2;
+        cursor: default;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        height: 28px;
+        overflow: hidden;
+        margin: -25px 0 0 -3px;
+    }
+}
+.js-preupload.btn:hover {
+    color: rgba(73, 169, 66, 1);
+}
+.btn.btn-sm {
+    background-color: rgba(73, 169, 66, 1);
+    color: #fff;
+    .border-radius(0);
+    border: 0;
+}
+.btn.btn-sm:hover {
+    background-color: rgba(118, 176, 67, 1);
+}
+.btn.btn-sm:active {
+    background-color: rgba(79, 134, 64, 1);
 }
 
 .background {
@@ -619,44 +680,8 @@ h4 {
                     overflow: hidden;
                     margin-bottom: 20px;
                     background-color: rgba(239, 239, 240, 1);
-                    textarea {
-                        width: 100%;
-                        border: 0;
-                        outline: 0;
-                        resize: none;
-                        padding: @padding-base-vertical @padding-base-horizontal;
-                        font-size: 13px;
-                    }
-                    .js-preupload.btn {
-                        width: 135px;
-                        height: 34px;
-                        cursor: default;
-                        padding-top: 2px;
-                        span {
-                            font-size: 13px;
-                            margin-left: -2px;
-                            cursor: pointer;
-                        }
-                        input {
-                            width: 115px;
-                            z-index: 2;
-                            cursor: default;
-                            opacity: 0;
-                            filter: alpha(opacity=0);
-                            height: 28px;
-                            overflow: hidden;
-                            margin: -25px 0 0 -3px;
-                        }
-                    }
-                    .js-preupload.btn:hover {
-                        color: rgba(73, 169, 66, 1);
-                    }
-                    button {
+                    .btn.btn-sm {
                         margin-left: 10px;
-                        background-color: rgba(73, 169, 66, 1);
-                        color: #fff;
-                        .border-radius(0);
-                        border: 0;
                     }
                 }
                 .comment {
@@ -705,6 +730,29 @@ h4 {
                     a:hover {
                         background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.25);
                     }
+                }
+            }
+            .create-news {
+                label {
+                    font-weight: normal;
+                }
+                .js-preupload.btn {
+                    width: 80px;
+                    cursor: default;
+                    display: block;
+                    height: 27px;
+                    padding-top: 4px;
+                    input {
+                        width: 80px;
+                        height: 27px;
+                        margin: -22px 0 0 -10px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+                .js-preupload.btn:hover, .js-preupload.btn:active {
+                    color: rgba(255, 255, 255, 1);
                 }
             }
         }
