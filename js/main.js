@@ -163,7 +163,6 @@ $(document).ready (function(){
         startDate: new Date(),
         todayHighlight: true,
         autoclose: true,
-        pickerPosition: "top-right",
         weekStart: 1,
         startView: 2,
         minView: 2,
@@ -171,15 +170,47 @@ $(document).ready (function(){
     });
 
     /*$(".datetimepicker").datetimepicker({
-        language: "ru",
-        format: 'dd.mm.yyyy',
-        linkField: "time_field",
-        linkFormat: "hh:ii",
-        todayBtn: true,
-        startDate: new Date(),
-        todayHighlight: true,
-        initialDate: new Date(),
-        autoclose: true
-    });*/
+     language: "ru",
+     format: 'dd.mm.yyyy',
+     linkField: "time_field",
+     linkFormat: "hh:ii",
+     todayBtn: true,
+     startDate: new Date(),
+     todayHighlight: true,
+     initialDate: new Date(),
+     autoclose: true
+     });*/
+
+    $('select').selectize({
+        create: true
+    });
+    /*$(".btn").hover(
+
+        function() {
+            $(this).next(".triangle").removeClass("hover");
+            $(this).next(".triangle").removeClass("active");
+            $(this).next(".triangle").addClass("hover");
+        }, function() {
+            $(this).next(".triangle").removeClass("hover");
+        }
+    );
+    $(".btn").mousedown(
+        function() {
+            $(this).next(".triangle").removeClass("hover");
+            $(this).next(".triangle").addClass("active");
+        }
+    );
+    $(".btn").mouseup(
+        function() {
+            $(this).next(".triangle").removeClass("hover");
+            $(this).next(".triangle").removeClass("active");
+        }
+    );
+    $(".btn").mouseleave(
+        function() {
+            $(this).next(".triangle").removeClass("hover");
+            $(this).next(".triangle").removeClass("active");
+        }
+    );*/
 
 });

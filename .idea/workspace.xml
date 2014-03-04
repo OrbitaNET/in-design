@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/begin.php" afterPath="$PROJECT_DIR$/begin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/franchisee_create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/franchisee_user_create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap_custom.less" afterPath="$PROJECT_DIR$/less/bootstrap_custom.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/create.php" afterPath="$PROJECT_DIR$/news/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main-sidebar.less" afterPath="$PROJECT_DIR$/less/main-sidebar.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,15 +30,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="273" column="142" selection-start="11850" selection-end="11850" vertical-scroll-proportion="0.53477764" vertical-offset="4172" max-vertical-offset="5117">
+            <state line="265" column="34" selection-start="11212" selection-end="11212" vertical-scroll-proportion="-16.23077" vertical-offset="4083" max-vertical-offset="4947">
               <folding>
                 <element signature="e#6#88#0" expanded="true" />
-                <element signature="e#2858#2886#0" expanded="true" />
-                <element signature="e#3205#3228#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="franchisee_create.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="250" column="26" selection-start="8518" selection-end="8518" vertical-scroll-proportion="-16.076923" vertical-offset="3832" max-vertical-offset="5202">
+              <folding>
+                <element signature="e#6#88#0" expanded="true" />
+                <element signature="e#2459#2487#0" expanded="true" />
+                <element signature="e#2774#2797#0" expanded="true" />
+                <element signature="e#10272#10295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="franchisee_user_create.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_user_create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="325" column="104" selection-start="12827" selection-end="12827" vertical-scroll-proportion="0.3990878" vertical-offset="5175" max-vertical-offset="7021">
+              <folding>
+                <element signature="e#6#88#0" expanded="true" />
+                <element signature="e#2463#2491#0" expanded="true" />
+                <element signature="e#2778#2801#0" expanded="true" />
+                <element signature="e#11411#11434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="franchisee_list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="362" column="56" selection-start="16761" selection-end="16981" vertical-scroll-proportion="-24.076923" vertical-offset="5528" max-vertical-offset="6392">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="birthday.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="501" column="24" selection-start="8604" selection-end="25865" vertical-scroll-proportion="-29.153847" vertical-offset="7759" max-vertical-offset="8704">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,34 +99,7 @@
       <file leaf-file-name="enterprise.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="30" selection-start="14189" selection-end="14412" vertical-scroll-proportion="0.0" vertical-offset="4695" max-vertical-offset="5559">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="franchisee_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="225" column="97" selection-start="8376" selection-end="8376" vertical-scroll-proportion="0.0" vertical-offset="3267" max-vertical-offset="6392">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="97" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="5780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="franchisee_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="97" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="5882">
+            <state line="312" column="30" selection-start="14189" selection-end="14412" vertical-scroll-proportion="-23.423077" vertical-offset="4695" max-vertical-offset="5559">
               <folding />
             </state>
           </provider>
@@ -91,7 +108,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="0" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.0" vertical-offset="2259" max-vertical-offset="3162">
+            <state line="213" column="8" selection-start="6504" selection-end="7373" vertical-scroll-proportion="0.0" vertical-offset="2786" max-vertical-offset="3689">
               <folding />
             </state>
           </provider>
@@ -100,21 +117,7 @@
       <file leaf-file-name="bootstrap_custom.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="254" column="27" selection-start="5964" selection-end="5967" vertical-scroll-proportion="-24.846153" vertical-offset="3672" max-vertical-offset="7157">
-              <folding>
-                <element signature="e#6340#9822#0" expanded="false" />
-                <element signature="e#9852#14811#0" expanded="false" />
-                <element signature="e#14836#17559#0" expanded="false" />
-                <element signature="e#17579#21895#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-sidebar.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="16" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-54.923077" vertical-offset="0" max-vertical-offset="2040">
+            <state line="906" column="0" selection-start="31305" selection-end="31305" vertical-scroll-proportion="-9.538462" vertical-offset="15154" max-vertical-offset="16626">
               <folding />
             </state>
           </provider>
@@ -156,10 +159,12 @@
         <option value="$PROJECT_DIR$/css/selectize.bootstrap3.css" />
         <option value="$PROJECT_DIR$/begin.php" />
         <option value="$PROJECT_DIR$/less/main-sidebar.less" />
-        <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
         <option value="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/news/create.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/cabinet/franchisee_create.php" />
+        <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
+        <option value="$PROJECT_DIR$/cabinet/franchisee_user_create.php" />
       </list>
     </option>
   </component>
@@ -314,10 +319,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Crunch/Crunch/Crunch.exe" />
-    <property name="SearchEverywhereHistory" value="date&#10;main&#10;en&#10;be&#10;end&#10;bi&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;cus&#10;cu" />
+    <property name="SearchEverywhereHistory" value="cre&#10;date&#10;main&#10;en&#10;be&#10;end&#10;bi&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;cus&#10;cu" />
     <property name="LayoutCode.rearrangeEntriesLESS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -412,29 +418,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/begin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="66" selection-start="3260" selection-end="3260" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/events.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="37" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="177" column="0" selection-start="4802" selection-end="4802" vertical-scroll-proportion="0.0" vertical-offset="2355" max-vertical-offset="3230">
-          <folding>
-            <element signature="e#6340#9822#0" expanded="false" />
-            <element signature="e#9852#14811#0" expanded="false" />
-            <element signature="e#14836#17559#0" expanded="false" />
-            <element signature="e#17579#21895#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -498,12 +485,7 @@
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="219" column="41" selection-start="7590" selection-end="7590" vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="2431">
-          <folding>
-            <element signature="e#6340#9822#0" expanded="false" />
-            <element signature="e#9852#14811#0" expanded="false" />
-            <element signature="e#14836#17559#0" expanded="false" />
-            <element signature="e#17579#21895#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -538,12 +520,7 @@
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-          <folding>
-            <element signature="e#6340#9822#0" expanded="false" />
-            <element signature="e#9852#14811#0" expanded="false" />
-            <element signature="e#14836#17559#0" expanded="false" />
-            <element signature="e#17579#21895#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,23 +627,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="97" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="5882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="97" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="5780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-20.0" vertical-offset="415" max-vertical-offset="8704">
           <folding />
         </state>
       </provider>
@@ -685,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="97" selection-start="8376" selection-end="8376" vertical-scroll-proportion="0.0" vertical-offset="3267" max-vertical-offset="6392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="196" column="10" selection-start="3891" selection-end="3897" vertical-scroll-proportion="0.7663344" vertical-offset="2640" max-vertical-offset="4335">
@@ -702,13 +658,6 @@
     <entry file="file://$PROJECT_DIR$/end.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="30" selection-start="14189" selection-end="14412" vertical-scroll-proportion="0.0" vertical-offset="4695" max-vertical-offset="5559">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/selectize.bootstrap3.css">
@@ -732,18 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="27" selection-start="5964" selection-end="5967" vertical-scroll-proportion="-24.846153" vertical-offset="3672" max-vertical-offset="7157">
-          <folding>
-            <element signature="e#6340#9822#0" expanded="false" />
-            <element signature="e#9852#14811#0" expanded="false" />
-            <element signature="e#14836#17559#0" expanded="false" />
-            <element signature="e#17579#21895#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="224" column="29" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.54535145" vertical-offset="3327" max-vertical-offset="6817">
@@ -753,18 +690,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="0" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3162">
+        <state line="213" column="8" selection-start="6504" selection-end="7373" vertical-scroll-proportion="0.0" vertical-offset="2786" max-vertical-offset="3689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="26" selection-start="8518" selection-end="8518" vertical-scroll-proportion="-16.076923" vertical-offset="3832" max-vertical-offset="5202">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+            <element signature="e#2459#2487#0" expanded="true" />
+            <element signature="e#2774#2797#0" expanded="true" />
+            <element signature="e#10272#10295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="97" selection-start="2447" selection-end="2447" vertical-scroll-proportion="-3.851852" vertical-offset="4263" max-vertical-offset="5882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="312" column="30" selection-start="14189" selection-end="14412" vertical-scroll-proportion="-23.423077" vertical-offset="4695" max-vertical-offset="5559">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="24" selection-start="8604" selection-end="25865" vertical-scroll-proportion="-29.153847" vertical-offset="7759" max-vertical-offset="8704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="362" column="56" selection-start="16761" selection-end="16981" vertical-scroll-proportion="-24.076923" vertical-offset="5528" max-vertical-offset="6392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="906" column="0" selection-start="31305" selection-end="31305" vertical-scroll-proportion="-9.538462" vertical-offset="15154" max-vertical-offset="16626">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="142" selection-start="11850" selection-end="11850" vertical-scroll-proportion="0.53477764" vertical-offset="4172" max-vertical-offset="5117">
+        <state line="265" column="34" selection-start="11212" selection-end="11212" vertical-scroll-proportion="-16.23077" vertical-offset="4083" max-vertical-offset="4947">
           <folding>
             <element signature="e#6#88#0" expanded="true" />
-            <element signature="e#2858#2886#0" expanded="true" />
-            <element signature="e#3205#3228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_user_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="325" column="104" selection-start="12827" selection-end="12827" vertical-scroll-proportion="0.3990878" vertical-offset="5175" max-vertical-offset="7021">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+            <element signature="e#2463#2491#0" expanded="true" />
+            <element signature="e#2778#2801#0" expanded="true" />
+            <element signature="e#11411#11434#0" expanded="true" />
           </folding>
         </state>
       </provider>

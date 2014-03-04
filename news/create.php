@@ -271,7 +271,7 @@
                         </div>
                         <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <label><small class="text-muted">Дата публикации *</small></label>
-                            <input type="text" class="form-control datepicker date" data-date data-date-format="dd.mm.yyyy" value="<?= date("d.m.Y"); ?>">
+                            <input type="text" class="form-control datepicker date" data-date data-date-format="dd.mm.yyyy" data-picker-position="top-right" value="<?= date("d.m.Y"); ?>">
                         </div>
                         <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <button type="submit" class="btn btn-default btn-sm">Сохранить</button>
@@ -282,15 +282,5 @@
         </tr>
     </table>
     <script type="text/javascript" src="/js/selectize.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(function() {
-                $('select').selectize({
-                    create: true
-                });
-            });
-        });
-    </script>
-
 
 <?php require_once('../end.php');?>
