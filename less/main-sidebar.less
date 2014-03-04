@@ -56,7 +56,7 @@
                 background-color: @link-color;
                 color: rgba(255, 255, 255, 1);
                 i.sidebar-plus {
-                    background: url("/images/sidebar-plus.png") no-repeat bottom center;
+                    background: url("/images/sidebar-plus.png") no-repeat top center;
                 }
                 i.sidebar-desktop {
                     background: url("/images/sidebar-desktop.png") no-repeat bottom center;
@@ -82,10 +82,15 @@
             }
 
         }
-        li.add, li.add.active {
+        li.add {
             a {
                 background-color: rgba(73, 155, 13, 1);
                 color: rgba(255, 255, 255, 1);
+            }
+        }
+        li.add.active {
+            a {
+                background-color: rgba(50, 110, 50, 1);
             }
         }
     }

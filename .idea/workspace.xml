@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\css\dropdown\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\css\dropdown\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\css\dropdown\noJS.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\css\dropdown\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Winginx\home\in-design.ru\public_html\js\dropdown\modernizr.custom.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/begin.php" afterPath="$PROJECT_DIR$/begin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap_custom.less" afterPath="$PROJECT_DIR$/less/bootstrap_custom.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/create.php" afterPath="$PROJECT_DIR$/news/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main-sidebar.less" afterPath="$PROJECT_DIR$/less/main-sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="public_html.iws" />
@@ -33,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="create.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="72" selection-start="3205" selection-end="3205" vertical-scroll-proportion="-6.923077" vertical-offset="1027" max-vertical-offset="5015">
+            <state line="273" column="142" selection-start="11850" selection-end="11850" vertical-scroll-proportion="0.53477764" vertical-offset="4172" max-vertical-offset="5117">
               <folding>
                 <element signature="e#6#88#0" expanded="true" />
                 <element signature="e#2858#2886#0" expanded="true" />
@@ -49,7 +46,7 @@
       <file leaf-file-name="begin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/begin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="82" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1037">
+            <state line="31" column="106" selection-start="2413" selection-end="2413" vertical-scroll-proportion="-14.769231" vertical-offset="143" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -91,24 +88,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_custom.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="0" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.0" vertical-offset="2259" max-vertical-offset="3162">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_custom.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="22" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.5427594" vertical-offset="816" max-vertical-offset="6868">
+            <state line="254" column="27" selection-start="5964" selection-end="5967" vertical-scroll-proportion="-24.846153" vertical-offset="3672" max-vertical-offset="7157">
               <folding>
-                <element signature="e#6112#9594#0" expanded="false" />
-                <element signature="e#9624#14582#0" expanded="false" />
-                <element signature="e#14607#17329#0" expanded="false" />
-                <element signature="e#17349#21665#0" expanded="false" />
+                <element signature="e#6340#9822#0" expanded="false" />
+                <element signature="e#9852#14811#0" expanded="false" />
+                <element signature="e#14836#17559#0" expanded="false" />
+                <element signature="e#17579#21895#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectize.bootstrap3.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/selectize.bootstrap3.css">
+      <file leaf-file-name="main-sidebar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="340" column="20" selection-start="7659" selection-end="7659" vertical-scroll-proportion="0.0" vertical-offset="5287" max-vertical-offset="6392">
+            <state line="84" column="16" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-54.923077" vertical-offset="0" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -145,14 +151,15 @@
         <option value="$PROJECT_DIR$/site/events.php" />
         <option value="$PROJECT_DIR$/cabinet/franchisee_list.php" />
         <option value="$PROJECT_DIR$/cabinet/birthday.php" />
-        <option value="$PROJECT_DIR$/less/main-sidebar.less" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/less/dropdowns.less" />
         <option value="$PROJECT_DIR$/end.php" />
-        <option value="$PROJECT_DIR$/begin.php" />
-        <option value="$PROJECT_DIR$/news/create.php" />
         <option value="$PROJECT_DIR$/css/selectize.bootstrap3.css" />
+        <option value="$PROJECT_DIR$/begin.php" />
+        <option value="$PROJECT_DIR$/less/main-sidebar.less" />
         <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
+        <option value="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/news/create.php" />
       </list>
     </option>
   </component>
@@ -245,6 +252,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -293,7 +314,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Crunch/Crunch/Crunch.exe" />
-    <property name="SearchEverywhereHistory" value="en&#10;be&#10;end&#10;main&#10;bi&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;cus&#10;cu" />
+    <property name="SearchEverywhereHistory" value="date&#10;main&#10;en&#10;be&#10;end&#10;bi&#10;fra&#10;0.5&#10;cust&#10;inde&#10;eve&#10;b&#10;birth&#10;cus&#10;cu" />
     <property name="LayoutCode.rearrangeEntriesLESS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
@@ -391,11 +412,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="67" selection-start="9153" selection-end="9153" vertical-scroll-proportion="0.0" vertical-offset="3917" max-vertical-offset="4539" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/begin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="66" selection-start="3260" selection-end="3260" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
@@ -414,10 +430,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="177" column="0" selection-start="4802" selection-end="4802" vertical-scroll-proportion="0.0" vertical-offset="2355" max-vertical-offset="3230">
           <folding>
-            <element signature="e#6112#9594#0" expanded="false" />
-            <element signature="e#9624#14582#0" expanded="false" />
-            <element signature="e#14607#17329#0" expanded="false" />
-            <element signature="e#17349#21665#0" expanded="false" />
+            <element signature="e#6340#9822#0" expanded="false" />
+            <element signature="e#9852#14811#0" expanded="false" />
+            <element signature="e#14836#17559#0" expanded="false" />
+            <element signature="e#17579#21895#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -474,17 +490,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961" />
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="219" column="41" selection-start="7590" selection-end="7590" vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="2431">
           <folding>
-            <element signature="e#6112#9594#0" expanded="false" />
-            <element signature="e#9624#14582#0" expanded="false" />
-            <element signature="e#14607#17329#0" expanded="false" />
-            <element signature="e#17349#21665#0" expanded="false" />
+            <element signature="e#6340#9822#0" expanded="false" />
+            <element signature="e#9852#14811#0" expanded="false" />
+            <element signature="e#14836#17559#0" expanded="false" />
+            <element signature="e#17579#21895#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,10 +539,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
           <folding>
-            <element signature="e#6112#9594#0" expanded="false" />
-            <element signature="e#9624#14582#0" expanded="false" />
-            <element signature="e#14607#17329#0" expanded="false" />
-            <element signature="e#17349#21665#0" expanded="false" />
+            <element signature="e#6340#9822#0" expanded="false" />
+            <element signature="e#9852#14811#0" expanded="false" />
+            <element signature="e#14836#17559#0" expanded="false" />
+            <element signature="e#17579#21895#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,12 +631,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="72" selection-start="5356" selection-end="5356" vertical-scroll-proportion="0.40706956" vertical-offset="2074" max-vertical-offset="3961" />
+        <state line="143" column="72" selection-start="5356" selection-end="5356" vertical-scroll-proportion="0.40706956" vertical-offset="2074" max-vertical-offset="3961">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="21" selection-start="12678" selection-end="12678" vertical-scroll-proportion="-31.923077" vertical-offset="4746" max-vertical-offset="5780" />
+        <state line="333" column="21" selection-start="12678" selection-end="12678" vertical-scroll-proportion="-31.923077" vertical-offset="4746" max-vertical-offset="5780">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/events.less">
@@ -644,19 +666,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/birthday.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-20.0" vertical-offset="415" max-vertical-offset="8704" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="31" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="1955">
+        <state line="55" column="97" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-20.0" vertical-offset="415" max-vertical-offset="8704">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="37" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.0" vertical-offset="1171" max-vertical-offset="2091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
@@ -692,28 +704,10 @@
         <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/begin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="82" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="312" column="30" selection-start="14189" selection-end="14412" vertical-scroll-proportion="0.0" vertical-offset="4695" max-vertical-offset="5559">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="72" selection-start="3205" selection-end="3205" vertical-scroll-proportion="-6.923077" vertical-offset="1027" max-vertical-offset="5015">
-          <folding>
-            <element signature="e#6#88#0" expanded="true" />
-            <element signature="e#2858#2886#0" expanded="true" />
-            <element signature="e#3205#3228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,14 +718,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/begin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="106" selection-start="2413" selection-end="2413" vertical-scroll-proportion="-14.769231" vertical-offset="143" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main-sidebar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="16" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-54.923077" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="22" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.5427594" vertical-offset="816" max-vertical-offset="6868">
+        <state line="254" column="27" selection-start="5964" selection-end="5967" vertical-scroll-proportion="-24.846153" vertical-offset="3672" max-vertical-offset="7157">
           <folding>
-            <element signature="e#6112#9594#0" expanded="false" />
-            <element signature="e#9624#14582#0" expanded="false" />
-            <element signature="e#14607#17329#0" expanded="false" />
-            <element signature="e#17349#21665#0" expanded="false" />
+            <element signature="e#6340#9822#0" expanded="false" />
+            <element signature="e#9852#14811#0" expanded="false" />
+            <element signature="e#14836#17559#0" expanded="false" />
+            <element signature="e#17579#21895#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="29" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.54535145" vertical-offset="3327" max-vertical-offset="6817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="0" selection-start="6036" selection-end="6036" vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="142" selection-start="11850" selection-end="11850" vertical-scroll-proportion="0.53477764" vertical-offset="4172" max-vertical-offset="5117">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+            <element signature="e#2858#2886#0" expanded="true" />
+            <element signature="e#3205#3228#0" expanded="true" />
           </folding>
         </state>
       </provider>

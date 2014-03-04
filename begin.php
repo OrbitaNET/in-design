@@ -22,10 +22,14 @@
         <link rel="icon" type="image/png" href="http://brosko.ru/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="http://brosko.ru/favicon-16x16.png" sizes="16x16">
         <link rel="shortcut icon" href="http://brosko.ru/favicon.ico">
+
         <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="/js/less-1.6.3.min.js"></script>
+        <script type="text/javascript" src="/js/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="/js/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js"></script>
 
         <link rel="stylesheet" type="text/css" href="/css/selectize.bootstrap3.css">
+        <link rel="stylesheet" type="text/css" href="/js/datetimepicker/css/bootstrap-datetimepicker.css">
     </head>
     <body>
         <div class="background"></div>

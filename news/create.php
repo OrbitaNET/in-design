@@ -242,7 +242,7 @@
                     </h1>
                     <hr/>
                     <form role="form">
-                        <div class="form-group">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label><small class="text-muted">Категория новости *</small></label>
                             <select class="form-control">
                                 <option value="1">Новости франчайзинга</option>
@@ -250,26 +250,32 @@
                                 <option value="3">Черновик</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label><small class="text-muted">Заголовок *</small></label>
                             <input type="text" class="form-control">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label><small class="text-muted">Анонс *</small></label>
                             <textarea class="form-control"></textarea>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label><small class="text-muted">Фото анонса</small></label>
                             <div class="js-preupload btn btn-default btn-sm js-fileapi-wrapper">
                                 <span>Загрузить</span>
                                 <input type="file" name="filedata" multiple="">
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label><small class="text-muted">Текст новости *</small></label>
                             <textarea class="form-control"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-default btn-sm">Сохранить</button>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <label><small class="text-muted">Дата публикации *</small></label>
+                            <input type="text" class="form-control datepicker date" data-date data-date-format="dd.mm.yyyy" value="<?= date("d.m.Y"); ?>">
+                        </div>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <button type="submit" class="btn btn-default btn-sm">Сохранить</button>
+                        </div>
                     </form>
                 </div>
             </td>
