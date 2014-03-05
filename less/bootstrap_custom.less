@@ -179,6 +179,35 @@ textarea {
     padding-right: 35px;
 }
 
+.margin20px {
+    margin: 20px;
+}
+
+.margin20px0 {
+    margin: 20px 0;
+}
+
+.margin0020px {
+    margin: 0 0 20px;
+}
+
+.has-error {
+    input[type='text']{
+        .box-shadow(none);
+        border: 1px solid rgb(169, 68, 66);
+        background-color: rgba(253, 221, 215, 1);
+    }
+    input[type='text']:focus {
+        .box-shadow(none);
+    }
+
+}
+
+.form-control[readonly] {
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .background {
     height: 100%;
     width: 100%;
@@ -493,15 +522,15 @@ textarea {
                                     position: relative;
                                     top: 3px;
                                 }
-                                label:hover {
-                                    background-color: transparent;
-                                    color: rgba(73, 169, 66, 1);
-                                    cursor: pointer;
-                                }
                             }
                             .edit-button:hover, .edit-button:active {
                                 i {
                                     background: url("/images/edit-button.png") no-repeat bottom center;
+                                }
+                                label {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                    cursor: pointer;
                                 }
                             }
                         }
@@ -667,15 +696,15 @@ textarea {
                                     position: relative;
                                     top: 3px;
                                 }
-                                label:hover {
-                                    background-color: transparent;
-                                    color: rgba(73, 169, 66, 1);
-                                    cursor: pointer;
-                                }
                             }
                             .edit-button:hover, .edit-button:active {
                                 i {
                                     background: url("/images/edit-button.png") no-repeat bottom center;
+                                }
+                                label {
+                                    background-color: transparent;
+                                    color: rgba(73, 169, 66, 1);
+                                    cursor: pointer;
                                 }
                             }
                         }
@@ -891,6 +920,15 @@ textarea {
                             width: 165px;
                             text-align: left;
                         }
+                        .btn.btn-link:hover, .btn.btn-link:active {
+                            color: rgba(73, 169, 66, 1);
+                        }
+                        .btn.btn-link.delete:hover, .btn.btn-link.delete:active {
+                            color: @brand-danger;
+                        }
+                    }
+                    #map {
+                        height: 200px;
                     }
                 }
                 table {
@@ -940,13 +978,13 @@ textarea {
                                     position: relative;
                                     top: 3px;
                                 }
-                                label:hover {
+                            }
+                            .edit-button:hover, .edit-button:active {
+                                label {
                                     background-color: transparent;
                                     color: rgba(73, 169, 66, 1);
                                     cursor: pointer;
                                 }
-                            }
-                            .edit-button:hover, .edit-button:active {
                                 i {
                                     background: url("/images/edit-button.png") no-repeat bottom center;
                                 }
