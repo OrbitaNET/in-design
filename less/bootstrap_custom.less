@@ -28,6 +28,11 @@
     border-color: @brand-danger;
 }
 
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 form {
     .bs-callout {
         padding: 15px;
@@ -108,6 +113,7 @@ textarea {
     }
 
 }
+
 .triangle-right(@height, @color) {
     border-left: 10px solid @color;
     border-top: @height solid transparent;
@@ -116,6 +122,7 @@ textarea {
     display: inline-block;
     float: left;
 }
+
 .triangle-out(@height, @color) {
     border-left: 10px solid transparent;
     border-top: @height solid @color;
@@ -124,6 +131,7 @@ textarea {
     display: inline-block;
     float: left;
 }
+
 .triangle-hover(@color) {
     border-left: 10px solid @color;
 }
@@ -192,7 +200,7 @@ textarea {
 }
 
 .has-error {
-    input[type='text']{
+    input[type='text'] {
         .box-shadow(none);
         border: 1px solid rgb(169, 68, 66);
         background-color: rgba(253, 221, 215, 1);
@@ -711,6 +719,186 @@ textarea {
                     }
                 }
             }
+            .news {
+                table {
+                    margin: 20px 0;
+                    tr {
+                        border-bottom: 1px solid @gray-lighter;
+                        td {
+                            border: 0;
+                            a {
+                                color: rgba(73, 169, 66, 1);
+                            }
+                            a:hover, a:active {
+                                text-decoration: underline;
+                                background-color: transparent;
+                            }
+                            .media {
+                                .media-block {
+                                    margin: 20px 0;
+                                    .comment_text.well {
+                                        .border-radius(0);
+                                        margin-bottom: 0;
+                                        background-color: rgba(239, 239, 240, 1);
+                                        border: 0;
+                                        .box-shadow(none);
+                                    }
+                                    h4 {
+                                        a {
+                                            color: rgba(73, 169, 66, 1);
+                                            font-size: 13px;
+                                            font-weight: normal;
+                                        }
+                                    }
+                                    .feedback {
+                                        font-size: 13px;
+                                        a {
+                                            margin-right: 20px;
+                                        }
+                                        a.delete {
+                                            margin-right: 0;
+                                        }
+                                        span.text-muted {
+                                            margin-right: 20px;
+                                        }
+                                        a.delete:hover, a.delete:active {
+                                            color: @brand-danger;
+                                        }
+                                    }
+                                    .comment-block {
+                                        color: rgba(188, 190, 192, 1);
+                                        margin-right: 20px;
+                                        span.glyphicon {
+                                            margin-right: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .news-view {
+                a:hover {
+                    color: rgba(73, 169, 66, 1);
+                }
+                .btn-group {
+                    margin-top: 20px;
+                    button {
+                        padding-top: 3px;
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+                    button:hover, button:active {
+                        color: rgba(73, 169, 66, 1);
+                    }
+                    button.delete:hover {
+                        color: @brand-danger;
+                    }
+                }
+                .news-block {
+                    img.pull-left {
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                    }
+                    img.pull-right {
+                        margin-left: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+                .media-block {
+                    .comment_text.well {
+                        .border-radius(0);
+                        margin-bottom: 0;
+                        background-color: rgba(239, 239, 240, 1);
+                        border: 0;
+                        .box-shadow(none);
+                    }
+                    h4 {
+                        a {
+                            color: rgba(73, 169, 66, 1);
+                            font-size: 13px;
+                            font-weight: normal;
+                        }
+                    }
+                    .feedback {
+                        font-size: 13px;
+                        a {
+                            margin-right: 20px;
+                        }
+                        a.delete {
+                            margin-right: 0;
+                        }
+                        span.text-muted {
+                            margin-right: 20px;
+                        }
+                        a.delete:hover, a.delete:active {
+                            color: @brand-danger;
+                        }
+                    }
+                    .comment-block {
+                        color: rgba(188, 190, 192, 1);
+                        margin-right: 20px;
+                        span.glyphicon {
+                            margin-right: 8px;
+                        }
+                    }
+                }
+                .add_comment {
+                    padding: @padding-base-vertical @padding-base-horizontal;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    background-color: rgba(239, 239, 240, 1);
+                }
+                .comment {
+                    margin: 20px 0;
+                    .comment_text.well {
+                        .border-radius(0);
+                        margin-bottom: 0;
+                        background-color: rgba(239, 239, 240, 1);
+                        border: 0;
+                        .box-shadow(none);
+                    }
+                    .comment_text_triangle {
+                        background: url("/images/comment-triangle.png") no-repeat bottom left rgba(239, 239, 240, 1);
+                        height: 9px;
+                    }
+                    h4 {
+                        a {
+                            color: rgba(73, 169, 66, 1);
+                            font-size: 13px;
+                            font-weight: normal;
+                        }
+                    }
+                    .feedback {
+                        font-size: 13px;
+                        a {
+                            margin-right: 20px;
+                        }
+                        a.delete {
+                            margin-right: 0;
+                        }
+                        span.text-muted {
+                            margin-right: 20px;
+                        }
+                        a.delete:hover, a.delete:active {
+                            color: @brand-danger;
+                        }
+                    }
+                }
+                .comment_all {
+                    margin: 20px 0 10px;
+                    a {
+                        padding: @padding-large-vertical @padding-large-horizontal;
+                        background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.15);
+                        color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 1);
+                    }
+                    a:hover {
+                        background-color: rgba(red(@brand-success), green(@brand-success), blue(@brand-success), 0.25);
+                    }
+                }
+            }
             .enterprise {
                 h1 {
                     margin-top: 0;
@@ -778,9 +966,6 @@ textarea {
                     overflow: hidden;
                     margin-bottom: 20px;
                     background-color: rgba(239, 239, 240, 1);
-                    .btn.btn-sm {
-                        margin-left: 10px;
-                    }
                 }
                 .comment {
                     margin: 20px 0;

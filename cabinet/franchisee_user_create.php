@@ -244,7 +244,7 @@
                 <li class="active"><div class="triangle-out"></div><a>Собственники</a><div class="triangle"></div></li>
                 <li><div class="triangle-out"></div><a>Предприятия</a><div class="triangle"></div></li>
             </ul>
-            <form role="form" class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+            <form role="form" class="col-lg-8 col-md-8 col-sm-8 col-xs-8 no-padding">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="bs-callout bs-callout-warning">
                         <span>Поля, отмеченые “звездочкой” обязательны для заполнения</span>
