@@ -118,24 +118,32 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/" class="show text-left pull-left">
                         Сообщения
                     </a>
+                    <a class="badge label-success pull-right">&plus;1</a>
+                    <div class="clearfix"></div>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/" class="show text-left pull-left">
                         Задачи
                     </a>
+                    <a class="badge label-success pull-right">&plus;22</a>
+                    <div class="clearfix"></div>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/" class="show text-left pull-left">
                         Уведомления
                     </a>
+                    <a class="badge label-success pull-right">&plus;333</a>
+                    <div class="clearfix"></div>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/" class="show text-left pull-left">
                         Обращения
                     </a>
+                    <a class="badge label-success pull-right">&plus;9999</a>
+                    <div class="clearfix"></div>
                 </li>
             </ul>
             <ul class="nav nav-pills nav-stacked" id="submenu-company">

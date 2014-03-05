@@ -114,9 +114,11 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a href="/" class="show text-left pull-left">
                         Сообщения
                     </a>
+                    <a class="badge label-success pull-right">1</a>
+                    <div class="clearfix"></div>
                 </li>
                 <li>
                     <a href="/" class="show text-left">
