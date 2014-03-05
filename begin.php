@@ -24,6 +24,7 @@
         <link rel="shortcut icon" href="http://brosko.ru/favicon.ico">
 
         <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="/js/selectize.js"></script>
         <script type="text/javascript" src="/js/less-1.6.3.min.js"></script>
         <script type="text/javascript" src="/js/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
         <script type="text/javascript" src="/js/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js"></script>

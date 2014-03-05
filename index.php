@@ -67,7 +67,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="show text-left">
+                    <a class="show text-left" data-toggle="modal" data-target="#createPotentialFranchisee">
                         Потенциального франчайзи
                     </a>
                 </li>

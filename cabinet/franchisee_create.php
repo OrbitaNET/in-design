@@ -297,5 +297,4 @@
     </td>
     </tr>
     </table>
-    <script type="text/javascript" src="/js/selectize.js"></script>
 <?php require_once('../end.php');?>
