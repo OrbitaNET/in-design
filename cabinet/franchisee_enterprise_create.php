@@ -285,7 +285,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">
-                            <button class="btn btn-link" type="button">&plus;&nbsp;Добавить телефон</button>
+                            <button class="btn btn-link btn-sm" type="button">&plus;&nbsp;Добавить телефон</button>
                         </span>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">
-                            <button class="btn btn-link delete" type="button">&minus;&nbsp;Удалить телефон</button>
+                            <button class="btn btn-link btn-sm delete" type="button">&minus;&nbsp;Удалить телефон</button>
                         </span>
                     </div>
                 </div>

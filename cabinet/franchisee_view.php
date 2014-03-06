@@ -231,9 +231,9 @@
                     Абакумов Олег Александрович
                 </h1>
                 <div class="btn-group pull-right">
-                    <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
-                    <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-arrow-right"></span>Переместить</button>
-                    <button type="button" class="delete btn btn-link"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
+                    <button type="button" class="btn btn-link btn-sm"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
+                    <button type="button" class="btn btn-link btn-sm"><span class="glyphicon glyphicon-arrow-right"></span>Переместить</button>
+                    <button type="button" class="delete btn btn-link btn-sm"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
                 </div>
                 <div class="clearfix"></div>
                 <p><small class="text-muted">Последние изменения 3.02.14 в 16:54</small></p>

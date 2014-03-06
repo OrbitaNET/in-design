@@ -199,6 +199,10 @@ textarea {
     margin: 0 0 20px;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 .has-error {
     input[type='text'] {
         .box-shadow(none);
@@ -1222,6 +1226,186 @@ textarea {
                                 margin-right: 10px;
                             }
                         }
+                    }
+                }
+            }
+            .im {
+                hr {
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                a:hover {
+                    color: rgba(73, 169, 66, 1);
+                }
+                .btn-group {
+                    margin-top: 20px;
+                    a {
+                        padding-top: 3px;
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+                    a:hover, a:active {
+                        color: rgba(255, 255, 255, 1);
+                    }
+                }
+                ul.nav.nav-tabs {
+                    padding-left: 10px;
+                    font-size: 13px;
+                    margin-top: 15px;
+                    li {
+                        a {
+                            .border-radius(0);
+                            padding: @padding-base-vertical @padding-base-horizontal;
+                            text-decoration: underline;
+                        }
+                        a:hover, a:active {
+                            color: rgba(73, 169, 66, 1);
+                        }
+                    }
+                    li.active {
+                        a {
+                            text-decoration: none;
+                        }
+                        a:hover, a:active {
+                            color: @link-color;
+                        }
+                    }
+                }
+                ul.list-message-by-user__list {
+                    list-style: none;
+                    li {
+                        display: inline-block;
+                        border-radius: 0;
+                        -webkit-border-radius: 0;
+                        -moz-border-radius: 0;
+                        margin: 10px 0 0px 10px;
+                        background-color: rgb(239, 239, 240);
+                        border: 0;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        color: rgb(77, 77, 79);
+                        text-decoration: none;
+                        font-weight: normal;
+                    }
+                    li:last-child {
+                        margin-right: 0;
+                    }
+                    li:first-child {
+                        margin-left: 0;
+                    }
+                }
+                table.table {
+                    tr {
+                        td {
+                            border-top: 0;
+                            border-bottom: 0;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            p {
+                                a {
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                }
+                            }
+                            .media {
+                                height: 40px;
+                                img {
+                                    margin: 0 10px
+                                }
+                                .media-heading {
+                                    font-size: 12px;
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    height: 40px;
+                                    overflow: hidden;
+                                }
+                            }
+                            .well {
+                                .border-radius(0);
+                                background-color: rgba(73, 155, 53, .1);
+                                border: 0;
+                                .box-shadow(none);
+                                margin-bottom: 0;
+                                .message {
+                                    font-size: 12px;
+                                    img {
+                                        margin: 0 10px 10px 0;
+                                    }
+                                    .text-muted {
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                            .well.read {
+                                background-color: rgba(0, 0, 0, 0);
+                            }
+                        }
+                    }
+                }
+            }
+            .im.im-view {
+                position: relative;
+                table.table {
+                    tr {
+                        td {
+                            border-bottom: 0;
+                            cursor: default;
+                            .well.read {
+                                background-color: rgba(0, 0, 0, 0);
+                                .media {
+                                    height: auto;
+                                    img {
+                                        margin-right: 10px;
+                                    }
+                                    .file-download__icon {
+                                        float: left;
+                                        margin-right: 0px;
+                                    }
+                                    .file-download__link {
+                                        line-height: 27px;
+                                    }
+                                    .bs-callout {
+                                        padding: 10px;
+                                    }
+                                }
+                            }
+                            .author {
+                                color: rgba(73, 169, 66, 1);
+                            }
+                        }
+                    }
+                }
+                .form-message {
+                    background-color: rgb(239, 239, 240);
+                    padding: 15px 15px 0px;
+                    .add-files {
+                        margin-top: 3px;
+                        span.glyphicon {
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+            .im.im-view.im-one {
+                table.table {
+                    tr {
+                        td {
+                            border-bottom: 1px solid rgba(239, 239, 240, 1);
+                            .media {
+                                img {
+                                    margin: 0;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .im.im-view.im-no-one {
+                .media-body {
+                    label {
+                        margin-top: 2px;
                     }
                 }
             }

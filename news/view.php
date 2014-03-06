@@ -240,8 +240,8 @@
                 «Летающий кенгуру» сократит пять тысяч рабочих мест
             </h1>
             <div class="btn-group pull-right">
-                <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
-                <button type="button" class="btn btn-link delete"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
+                <button type="button" class="btn btn-link btn-sm"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
+                <button type="button" class="btn btn-link btn-sm delete"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
             </div>
             <div class="clearfix"></div>
             <div class="margin20px0 news-block">

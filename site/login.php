@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php $title = 'Вход - '; ?>
+    <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -35,28 +36,27 @@
     </head>
     <body>
         <div class="background"></div>
-        <div class="header-line">
-            <div class="header">
-                <div class="title pull-left"><a href="/">Броско Фитнес</a></div>
-                <div class="title-phone pull-left"><span class="glyphicon glyphicon-phone"></span>8 800 555 0850</div>
-                <div class="title-dropdown dropdown pull-right">
-                    <a data-toggle="dropdown" href="#">
-                        <span>Понин Виталий Дмитриевич<sub>заместитель коммерческого директора</sub></span>
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/cabinet/user/settings">
-                                <span class="glyphicon glyphicon-cog"></span>&nbsp;Персональная информация
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/site/logout" class="delete">
-                                <span class="glyphicon glyphicon-off exit"></span>&nbsp;Выход
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 wrap">
+            <form class="b-signin" id="login-form" action="/site/login" method="post">
+                <div class="img_wrap">
+                    <img height="70" class="b-signin__logo" src="http://in.brosko.ru/image/getImage?id=1&class_name=Settings&attr_name=logo">
+                </div>
+                <div class="form_wrap">
+                    <div class="form-group login">
+                        <div class="img"></div>
+                        <input class="form-control b-signin__control" placeholder="Логин" name="LoginForm[username]" id="LoginForm_username" type="text">
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group password">
+                        <div class="img"></div>
+                        <input class="form-control b-signin__control" placeholder="Пароль" name="LoginForm[password]" id="LoginForm_password" type="password">
+                        <span class="help-block"></span>
+                    </div>
+                    <input class="btn b-signin__submit btn-default btn-sm" type="submit" name="yt0" value="Войти">
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
