@@ -246,8 +246,8 @@
                 <div class="filter-group-buttons">
                     <div class="btn-group pull-left" data-toggle="buttons">
                         <button class="btn btn-link btn-sm active">Текущие / 12</button>
-                        <button class="btn btn-link btn-sm active">Будущие / 12</button>
-                        <button class="btn btn-link btn-sm active">Завершенные / 12</button>                    
+                        <button class="btn btn-link btn-sm">Будущие / 12</button>
+                        <button class="btn btn-link btn-sm">Завершенные / 12</button>                    
                     </div>
                 </div>
 				<table class="table table-hover">
