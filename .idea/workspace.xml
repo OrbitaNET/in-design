@@ -2,19 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed09c61-7fb3-4ec0-a617-3755989a8701" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/im.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/im_no_one.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/im_one.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/im_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/login.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cabinet/task_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/cdr.png" afterPath="$PROJECT_DIR$/images/type_of_files/cdr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/comment-triangle.png" afterPath="$PROJECT_DIR$/images/comment-triangle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/datepicker-background.png" afterPath="$PROJECT_DIR$/images/datepicker-background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/doc.png" afterPath="$PROJECT_DIR$/images/type_of_files/doc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/edit-button.png" afterPath="$PROJECT_DIR$/images/edit-button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/filter-group-buttons-get-list-people.png" afterPath="$PROJECT_DIR$/images/filter-group-buttons-get-list-people.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/gif.png" afterPath="$PROJECT_DIR$/images/type_of_files/gif.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ic_checkbox.png" afterPath="$PROJECT_DIR$/images/ic_checkbox.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/jpg.png" afterPath="$PROJECT_DIR$/images/type_of_files/jpg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lenta-event.png" afterPath="$PROJECT_DIR$/images/lenta-event.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/login-sprite.png" afterPath="$PROJECT_DIR$/images/login-sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/main-background.png" afterPath="$PROJECT_DIR$/images/main-background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/news_100.png" afterPath="$PROJECT_DIR$/images/news_100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/news_280.png" afterPath="$PROJECT_DIR$/images/news_280.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/no_photo_200.png" afterPath="$PROJECT_DIR$/images/no_photo_200.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/none.png" afterPath="$PROJECT_DIR$/images/type_of_files/none.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/pdf.png" afterPath="$PROJECT_DIR$/images/type_of_files/pdf.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/png.png" afterPath="$PROJECT_DIR$/images/type_of_files/png.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/ppt.png" afterPath="$PROJECT_DIR$/images/type_of_files/ppt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/psd.png" afterPath="$PROJECT_DIR$/images/type_of_files/psd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-common.png" afterPath="$PROJECT_DIR$/images/sidebar-common.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-company.png" afterPath="$PROJECT_DIR$/images/sidebar-company.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-desktop.png" afterPath="$PROJECT_DIR$/images/sidebar-desktop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-guides.png" afterPath="$PROJECT_DIR$/images/sidebar-guides.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-news.png" afterPath="$PROJECT_DIR$/images/sidebar-news.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-plus.png" afterPath="$PROJECT_DIR$/images/sidebar-plus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-settings.png" afterPath="$PROJECT_DIR$/images/sidebar-settings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sidebar-university.png" afterPath="$PROJECT_DIR$/images/sidebar-university.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/tif.png" afterPath="$PROJECT_DIR$/images/type_of_files/tif.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/txt.png" afterPath="$PROJECT_DIR$/images/type_of_files/txt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/write-message.png" afterPath="$PROJECT_DIR$/images/write-message.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/type_of_files/xls.png" afterPath="$PROJECT_DIR$/images/type_of_files/xls.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/alerts.less" afterPath="$PROJECT_DIR$/less/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/badges.less" afterPath="$PROJECT_DIR$/less/badges.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/begin.php" afterPath="$PROJECT_DIR$/begin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/birthday.php" afterPath="$PROJECT_DIR$/cabinet/birthday.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/bootstrap-datetimepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.kr.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.kr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/js/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/bootstrap-datetimepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterPath="$PROJECT_DIR$/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap.less" afterPath="$PROJECT_DIR$/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap_custom.less" afterPath="$PROJECT_DIR$/less/bootstrap_custom.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/less/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/button-groups.less" afterPath="$PROJECT_DIR$/less/button-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/buttons.less" afterPath="$PROJECT_DIR$/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/carousel.less" afterPath="$PROJECT_DIR$/less/carousel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/checkbox.css" afterPath="$PROJECT_DIR$/css/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/close.less" afterPath="$PROJECT_DIR$/less/close.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/code.less" afterPath="$PROJECT_DIR$/less/code.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/component-animations.less" afterPath="$PROJECT_DIR$/less/component-animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/create.php" afterPath="$PROJECT_DIR$/news/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/dropdowns.less" afterPath="$PROJECT_DIR$/less/dropdowns.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/end.php" afterPath="$PROJECT_DIR$/end.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/enterprise.php" afterPath="$PROJECT_DIR$/cabinet/enterprise.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/events.less" afterPath="$PROJECT_DIR$/less/events.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/events.php" afterPath="$PROJECT_DIR$/site/events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/forms.less" afterPath="$PROJECT_DIR$/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_create.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_enterprise_create.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_enterprise_create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_list.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_tasks.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_tasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_user_create.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_user_create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/franchisee_view.php" afterPath="$PROJECT_DIR$/cabinet/franchisee_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/glyphicons.less" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/grid.less" afterPath="$PROJECT_DIR$/less/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/im.php" afterPath="$PROJECT_DIR$/cabinet/im.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/im_no_one.php" afterPath="$PROJECT_DIR$/cabinet/im_no_one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/im_one.php" afterPath="$PROJECT_DIR$/cabinet/im_one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/im_view.php" afterPath="$PROJECT_DIR$/cabinet/im_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/input-groups.less" afterPath="$PROJECT_DIR$/less/input-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-2.0.3.min.js" afterPath="$PROJECT_DIR$/js/jquery-2.0.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jumbotron.less" afterPath="$PROJECT_DIR$/less/jumbotron.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/labels.less" afterPath="$PROJECT_DIR$/less/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/less-1.6.3.min.js" afterPath="$PROJECT_DIR$/js/less-1.6.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/list-group.less" afterPath="$PROJECT_DIR$/less/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/list.php" afterPath="$PROJECT_DIR$/news/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/login.less" afterPath="$PROJECT_DIR$/less/login.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/login.php" afterPath="$PROJECT_DIR$/site/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main-sidebar.less" afterPath="$PROJECT_DIR$/less/main-sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/media.less" afterPath="$PROJECT_DIR$/less/media.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modals.less" afterPath="$PROJECT_DIR$/less/modals.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/navbar.less" afterPath="$PROJECT_DIR$/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/navs.less" afterPath="$PROJECT_DIR$/less/navs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/normalize.less" afterPath="$PROJECT_DIR$/less/normalize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pager.less" afterPath="$PROJECT_DIR$/less/pager.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pagination.less" afterPath="$PROJECT_DIR$/less/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/panels.less" afterPath="$PROJECT_DIR$/less/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/popovers.less" afterPath="$PROJECT_DIR$/less/popovers.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/print.less" afterPath="$PROJECT_DIR$/less/print.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/progress-bars.less" afterPath="$PROJECT_DIR$/less/progress-bars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/public_html.iml" afterPath="$PROJECT_DIR$/.idea/public_html.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/less/responsive-utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/scaffolding.less" afterPath="$PROJECT_DIR$/less/scaffolding.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/selectize.bootstrap3.css" afterPath="$PROJECT_DIR$/css/selectize.bootstrap3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/selectize.js" afterPath="$PROJECT_DIR$/js/selectize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/tables.less" afterPath="$PROJECT_DIR$/less/tables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/theme.less" afterPath="$PROJECT_DIR$/less/theme.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/thumbnails.less" afterPath="$PROJECT_DIR$/less/thumbnails.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/tooltip.less" afterPath="$PROJECT_DIR$/less/tooltip.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/type.less" afterPath="$PROJECT_DIR$/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabinet/users.php" afterPath="$PROJECT_DIR$/cabinet/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/utilities.less" afterPath="$PROJECT_DIR$/less/utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/view.php" afterPath="$PROJECT_DIR$/news/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wells.less" afterPath="$PROJECT_DIR$/less/wells.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="public_html.iws" />
@@ -38,20 +191,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="im.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cabinet/im.php">
+      <file leaf-file-name="franchisee_tasks.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/franchisee_tasks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="21" selection-start="8519" selection-end="8775" vertical-scroll-proportion="0.0" vertical-offset="3543" max-vertical-offset="5236">
+            <state line="309" column="0" selection-start="13378" selection-end="13613" vertical-scroll-proportion="-1.875" vertical-offset="4590" max-vertical-offset="5325">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="im_one.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cabinet/im_one.php">
+      <file leaf-file-name="task_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/task_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="21" selection-start="8534" selection-end="8790" vertical-scroll-proportion="0.0" vertical-offset="3961" max-vertical-offset="5304">
-              <folding />
+            <state line="282" column="43" selection-start="12003" selection-end="12003" vertical-scroll-proportion="-11.25" vertical-offset="3960" max-vertical-offset="5265">
+              <folding>
+                <element signature="e#2528#2556#0" expanded="true" />
+                <element signature="e#4399#4422#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,61 +215,25 @@
       <file leaf-file-name="im_view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cabinet/im_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="343" column="45" selection-start="17121" selection-end="17121" vertical-scroll-proportion="0.0" vertical-offset="5511" max-vertical-offset="6426">
+            <state line="317" column="54" selection-start="13672" selection-end="15444" vertical-scroll-proportion="-16.625" vertical-offset="4356" max-vertical-offset="5670">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="im_no_one.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cabinet/im_no_one.php">
+      <file leaf-file-name="bootstrap_custom.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="297" column="80" selection-start="12368" selection-end="12368" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="5372">
+            <state line="1538" column="34" selection-start="56533" selection-end="56533" vertical-scroll-proportion="0.3181818" vertical-offset="22888" max-vertical-offset="24420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/login.php">
+      <file leaf-file-name="enterprise.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="47" selection-start="3490" selection-end="3490" vertical-scroll-proportion="-26.538462" vertical-offset="160" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/login.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="34" selection-end="34" vertical-scroll-proportion="0.019384265" vertical-offset="0" max-vertical-offset="877">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="21" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-28.5" vertical-offset="109" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="end.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/end.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="7" selection-start="2632" selection-end="2786" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="begin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/begin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="66" selection-start="3846" selection-end="3904" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139">
+            <state line="316" column="22" selection-start="11246" selection-end="14603" vertical-scroll-proportion="-17.5" vertical-offset="4320" max-vertical-offset="4905">
               <folding />
             </state>
           </provider>
@@ -170,20 +290,21 @@
         <option value="$PROJECT_DIR$/cabinet/im_view.php" />
         <option value="$PROJECT_DIR$/css/checkbox.css" />
         <option value="$PROJECT_DIR$/begin.php" />
-        <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
         <option value="$PROJECT_DIR$/cabinet/im_no_one.php" />
         <option value="$PROJECT_DIR$/less/bootstrap.less" />
         <option value="$PROJECT_DIR$/site/login.php" />
         <option value="$PROJECT_DIR$/less/login.less" />
+        <option value="$PROJECT_DIR$/cabinet/franchisee_tasks.php" />
+        <option value="$PROJECT_DIR$/cabinet/task_view.php" />
+        <option value="$PROJECT_DIR$/less/bootstrap_custom.less" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +332,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +347,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
+              <option name="myItemId" value="in-design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,77 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
+              <option name="myItemId" value="in-design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -315,7 +367,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +380,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Crunch/Crunch/Crunch.exe" />
-    <property name="SearchEverywhereHistory" value="&#10;be&#10;create&#10;event&#10;eve&#10;birt&#10;boot&#10;enter&#10;ma&#10;cus&#10;modal&#10;inde&#10;end&#10;cre&#10;begin&#10;main&#10;lis&#10;bo&#10;view&#10;date&#10;en&#10;bi&#10;fra&#10;0.5&#10;cust&#10;b&#10;birth&#10;cu" />
+    <property name="SearchEverywhereHistory" value="&#10;cus&#10;enter&#10;be&#10;create&#10;event&#10;eve&#10;birt&#10;boot&#10;ma&#10;modal&#10;inde&#10;end&#10;cre&#10;begin&#10;main&#10;lis&#10;bo&#10;view&#10;date&#10;en&#10;bi&#10;fra&#10;0.5&#10;cust&#10;b&#10;birth&#10;cu" />
     <property name="LayoutCode.rearrangeEntriesLESS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
@@ -337,6 +388,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cabinet" />
       <recent name="C:\Winginx\home\in-design.ru\public_html\site" />
       <recent name="C:\Winginx\home\in-design.ru\public_html\cabinet" />
       <recent name="C:\Winginx\home\in-design.ru\public_html" />
@@ -388,8 +440,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="719" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -397,12 +449,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19296876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -429,20 +481,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1052" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="14195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/print.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="159" selection-end="164" vertical-scroll-proportion="17.01923" vertical-offset="970" max-vertical-offset="1819" />
@@ -616,26 +654,14 @@
         <state line="295" column="62" selection-start="11294" selection-end="11294" vertical-scroll-proportion="-12.923077" vertical-offset="4594" max-vertical-offset="6443" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="75" selection-start="9014" selection-end="9014" vertical-scroll-proportion="-8.807693" vertical-offset="3766" max-vertical-offset="5882" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="243" column="58" selection-start="8065" selection-end="8065" vertical-scroll-proportion="0.24537037" vertical-offset="3834" max-vertical-offset="5644" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="21" selection-start="9323" selection-end="9557" vertical-scroll-proportion="0.0" vertical-offset="3879" max-vertical-offset="5559" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="21" selection-start="4425" selection-end="4693" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3995">
-          <folding />
-        </state>
+        <state line="121" column="21" selection-start="4425" selection-end="4693" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/events.php">
@@ -671,16 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/franchisee_user_create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="26" selection-start="10804" selection-end="11018" vertical-scroll-proportion="0.0" vertical-offset="4930" max-vertical-offset="7021">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cabinet/im_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="45" selection-start="17121" selection-end="17121" vertical-scroll-proportion="0.0" vertical-offset="5511" max-vertical-offset="6426">
-          <folding />
-        </state>
+        <state line="290" column="26" selection-start="10804" selection-end="11018" vertical-scroll-proportion="0.0" vertical-offset="4930" max-vertical-offset="7021" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/ic_checkbox.png">
@@ -695,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1407" column="39" selection-start="50920" selection-end="50920" vertical-scroll-proportion="-30.384615" vertical-offset="23129" max-vertical-offset="24123">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cabinet/im_no_one.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="297" column="80" selection-start="12368" selection-end="12368" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="5372">
@@ -709,37 +719,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/begin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="66" selection-start="3846" selection-end="3904" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="7" selection-start="2632" selection-end="2786" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-28.5" vertical-offset="109" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="47" selection-start="3490" selection-end="3490" vertical-scroll-proportion="-26.538462" vertical-offset="160" max-vertical-offset="1139">
+        <state line="50" column="47" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/login.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="34" selection-end="34" vertical-scroll-proportion="0.019384265" vertical-offset="0" max-vertical-offset="877">
+        <state line="1" column="22" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="21" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.77424747" vertical-offset="287" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="7" selection-start="2632" selection-end="2786" vertical-scroll-proportion="0.84949833" vertical-offset="167" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/begin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="66" selection-start="3846" selection-end="3904" vertical-scroll-proportion="0.84949833" vertical-offset="407" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="0" selection-start="13378" selection-end="13613" vertical-scroll-proportion="-1.875" vertical-offset="4590" max-vertical-offset="5325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/franchisee_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="75" selection-start="9014" selection-end="9014" vertical-scroll-proportion="0.12820514" vertical-offset="3450" max-vertical-offset="5190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/enterprise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="22" selection-start="11246" selection-end="14603" vertical-scroll-proportion="-17.5" vertical-offset="4320" max-vertical-offset="4905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/im_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="54" selection-start="13672" selection-end="15444" vertical-scroll-proportion="-16.625" vertical-offset="4356" max-vertical-offset="5670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabinet/task_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="43" selection-start="12003" selection-end="12003" vertical-scroll-proportion="-11.25" vertical-offset="3960" max-vertical-offset="5265">
+          <folding>
+            <element signature="e#2528#2556#0" expanded="true" />
+            <element signature="e#4399#4422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/bootstrap_custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1538" column="34" selection-start="56533" selection-end="56533" vertical-scroll-proportion="0.3181818" vertical-offset="22888" max-vertical-offset="24420">
           <folding />
         </state>
       </provider>

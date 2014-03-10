@@ -1,4 +1,4 @@
-<?php $title = 'Франчайзи - '; ?>
+<?php $title = 'Задача - '; ?>
 <?php require_once('../begin.php');?>
 <table class="wrapper">
     <tr>
@@ -16,13 +16,13 @@
                         <p>Рабочий стол</p>
                     </a>
                 </li>
-                <li class="thumbnail" data-submenu="submenu-common">
+                <li class="active thumbnail" data-submenu="submenu-common">
                     <a class="show text-center">
                         <i class="sidebar-common"></i>
                         <p>Общее</p>
                     </a>
                 </li>
-                <li class="active thumbnail" data-submenu="submenu-company">
+                <li class="thumbnail" data-submenu="submenu-company">
                     <a class="show text-center">
                         <i class="sidebar-company"></i>
                         <p>Компания</p>
@@ -106,7 +106,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-common">
+            <ul class="nav nav-pills nav-stacked" id="submenu-common" style="display: block;">
                 <li>
                     <a href="/" class="show text-left">
                         Лента событий
@@ -122,7 +122,7 @@
                         Сообщения
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="/" class="show text-left">
                         Задачи
                     </a>
@@ -138,8 +138,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="nav nav-pills nav-stacked" id="submenu-company"  style="display: block;">
-                <li class="active">
+            <ul class="nav nav-pills nav-stacked" id="submenu-company">
+                <li>
                     <a href="/cabinet/franchisee_list.php" class="show text-left">
                         Франчайзи
                     </a>
@@ -226,123 +226,119 @@
             </ul>
         </td>
         <td id="content">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 franchisee tasks">
-                <h1 class="pull-left">
-                    Абакумов Олег Александрович
-                </h1>
-                <div class="btn-group pull-right">
-                    <button type="button" class="btn btn-link btn-sm"><span class="glyphicon glyphicon-pencil"></span>Редактировать</button>
-                    <button type="button" class="btn btn-link btn-sm"><span class="glyphicon glyphicon-arrow-right"></span>Переместить</button>
-                    <button type="button" class="delete btn btn-link btn-sm"><span class="glyphicon glyphicon-remove"></span>Удалить</button>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 task">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 no-padding-right">
+                    <h1 class="pull-left">
+                        Просмотр задачи
+                    </h1>
+                    <div class="clearfix"></div>
+                    <div class="btn-group">
+                        <button class="btn btn-sm btn-default">Завершить</button>
+                        <button class="btn btn-sm btn-link">Редактировать</button>
+                        <button class="btn btn-sm btn-link delete">Удалить</button>
+                    </div>
+                    <hr class="clearfix">
+                    <dl class="info">
+                        <dt class="text-muted">Задача</dt>
+                        <dd><strong>Заполнить профиль</strong></dd>
+                        <dt class="text-muted">Крайний срок</dt>
+                        <dd><span class="badge label-danger">12.05.2014 / 12.00</span></dd>
+                        <dt class="text-muted">Описание</dt>
+                        <dd>
+                            банька по русски печное отопление отдельно парилка,моющее отделение а так-же комната отдыха уютно комфортно и не дорого 500 р. час работаем круглосуточно телефон для справок 89114313421. 271918 (сергей)
+                            <div class="bs-callout bs-callout-success margin20px0">
+                                <div class="file-download overflow">
+                                    <a class="file-download__icon">
+                                        <img src="/images/type_of_files/png.png" alt="" width="25">
+                                    </a>
+                                    <p class="file-download__link"><a>1240835632_vyks...</a>&nbsp;(PNG, 33.9 Кб)</p>
+                                </div>
+                                <div class="file-download overflow">
+                                    <a class="file-download__icon">
+                                        <img src="/images/type_of_files/doc.png" alt="" width="25">
+                                    </a>
+                                    <p class="file-download__link"><a>1240835632_vyks...</a>&nbsp;(DOC, 33.9 Кб)</p>
+                                </div>
+                                <div class="file-download overflow">
+                                    <a class="file-download__icon">
+                                        <img src="/images/type_of_files/gif.png" alt="" width="25">
+                                    </a>
+                                    <p class="file-download__link"><a>1240835632_vyks...</a>&nbsp;(GIF, 33.9 Кб)</p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
                 </div>
-                <div class="clearfix"></div>
-                <p><small class="text-muted">Последние изменения 3.02.14 в 16:54</small></p>
-                <div class="clearfix"></div>
-                <ul class="nav nav-tabs">
-                    <li><a>Компания</a></li>
-                    <li><a>Сотрудники / <span>8</span></a></li>
-                    <li class="active"><a>Задачи / <span>1</span></a></li>
-                </ul>
-                <div class="filter-group-buttons overflow margin0020px">
-                    <div class="btn-group pull-left" data-toggle="buttons">
-                        <button class="btn btn-link btn-sm active">Текущие / 12</button>
-                        <button class="btn btn-link btn-sm">Будущие / 12</button>
-                        <button class="btn btn-link btn-sm">Завершенные / 12</button>                    
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 status-block">
+                    <dl class="info">
+                        <dt class="text-muted">Статус</dt>
+                        <dd><span class="badge label-warning">Открытая</span></dd>
+                        <dt class="text-muted">Приоритет</dt>
+                        <dd><span class="badge label-success">Важная</span></dd>
+                        <dt class="text-muted">Постановщик</dt>
+                        <dd><a>Абакумов Олег Александрович</a></dd>
+                        <dt class="text-muted">Ответственный</dt>
+                        <dd><a>Абакумов Олег Александрович</a></dd>
+                        <dt class="text-muted">Франчайзи</dt>
+                        <dd><a>ООО "Ромашка"</a></dd>
+                    </dl>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+                    <h1>
+                        Комментарии
+                    </h1>
+                    <div class="comment">
+                        <div class="comment_text well">Добрый день! Меня очень заинтересовала Ваша клевая франшиза, хотел бы получить более подробную информацию. г.Ростов-на-Дону</div>
+                        <div class="comment_text_triangle"></div>
+                        <div class="media col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <img class="media-object pull-left" src="/images/no_photo_200.png" width="39px"/>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                <div class="feedback pull-left">
+                                    <span class="pull-left text-muted">Пятница, 7 мая 2014, 9:01</span>
+                                    <a class="pull-left">Ответить</a>
+                                    <a class="pull-left">Редактировать</a>
+                                    <a class="delete pull-left">Удалить</a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="comment">
+                        <div class="comment_text well">Добрый день! Меня очень заинтересовала Ваша клевая франшиза, хотел бы получить более подробную информацию. г.Ростов-на-Дону</div>
+                        <div class="comment_text_triangle"></div>
+                        <div class="media col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <img class="media-object pull-left" src="/images/no_photo_200.png" width="39px"/>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                                <div class="feedback pull-left">
+                                    <span class="pull-left text-muted">Пятница, 7 мая 2014, 9:01</span>
+                                    <a class="pull-left">Ответить</a>
+                                    <a class="pull-left">Редактировать</a>
+                                    <a class="delete pull-left">Удалить</a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="comment_all">
+                        <a class="show text-center">Показать все комментарии</a>
+                    </div>
+                    <div class="media col-lg-12 col-md-12 col-sm-12 col-xs-12 add_comment">
+                        <img class="media-object pull-left" src="/images/no_photo_200.png" width="39px"/>
+                        <div class="media-body">
+                            <textarea placeholder="Комментировать..."></textarea>
+                            <div class="js-preupload btn btn-link js-fileapi-wrapper">
+                                <span>Прикрепить файлы</span>
+                                <input type="file" name="filedata" multiple="">
+                            </div>
+                            <div class="clearfix"></div>
+                            <button class="btn btn-default btn-sm">Ответить</button>
+                        </div>
                     </div>
                 </div>
-				<table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                                <a id="sort-by-name" class="pull-left table__link_header sorted-asc" href="/cabinet/franchisee/index/status/1/Franchisee_sort/name">Название (А-Я)</a>            <form class="form-inline" role="form">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Поиск..." type="text" name="Franchisee[name]" id="Franchisee_name">
-                                    </div>
-                                </form>
-                            </th>
-                            <th class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                <a id="sort-by-city" class="pull-left table__link_header sorted-asc" href="/cabinet/franchisee/index/status/1/Franchisee_sort/city">Крайний срок</a>
-                            </th>
-                            <th class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                <a id="sort-by-city" class="pull-left table__link_header sorted-asc" href="/cabinet/franchisee/index/status/1/Franchisee_sort/city">Постановщик</a>
-                            </th>
-                            <th class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                <a id="sort-by-city" class="pull-left table__link_header sorted-asc" href="/cabinet/franchisee/index/status/1/Franchisee_sort/city">Отвественный</a>
-                            </th>
-                            <th class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-
-                            </th>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                            <a>Заполнить форму</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            21.07.2014 / 19.00
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                            <a>Заполнить форму</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            21.07.2014 / 19.00
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                            <a>Заполнить форму</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            21.07.2014 / 19.00
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                            <a>Заполнить форму</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            21.07.2014 / 19.00
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <a>Абакумов Олег Александрович</a>
-                        </td>
-                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span></button>
-                        </td>
-                    </tr>
-                </table>
             </div>
         </td>
     </tr>
