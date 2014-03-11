@@ -236,7 +236,7 @@
     </td>
     <td id="content">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 news-view">
-            <h1 class="pull-left">
+            <h1 class="col-lg-9 col-md-9 col-sm-9 col-xs-9 pull-left">
                 «Летающий кенгуру» сократит пять тысяч рабочих мест
             </h1>
             <div class="btn-group pull-right">
@@ -259,9 +259,8 @@
                     <p>27 февраля в Qantas объявили финансовые результаты работы за вторую половину 2013 года. Доналоговый убыток перевозчика за этот период составил 252 миллиона австралийских долларов, выручка сократилась на четыре процента до 7,9 миллиарда долларов.</p>
                     <p>Как заявил генеральный директор Qantas Алан Джойс (Alan Joyce), подобный результат является неприемлемым для компании, поэтому руководство перевозчика вынуждено было принимать жесткие решения. Как указывает Agence France-Presse, в условиях экономии зарплата самого Джойса будет сокращена на 36 процентов.</p>
                 </div>
-                <div class="clearfix"></div>
             </div>
-            <div class="media media-block">
+            <div class="media media-block no-margin">
                 <img class="media-object pull-left" src="/images/no_photo_200.png" width="39px">
                 <div class="media-body">
                     <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
