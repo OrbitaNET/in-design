@@ -238,6 +238,25 @@
                 <div class="clearfix"></div>
                 <p><small class="text-muted">Последние изменения 3.02.14 в 16:54</small></p>
                 <div class="clearfix"></div>
+                <hr>
+                <div class="media col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div class="media col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img class="media-object pull-left" src="/images/no_photo_200.png" width="35px"/>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a>Абакумов Олег Александрович</a></h4>
+                        <small><p class="text-muted">+7 967 458 45 32</p></small>
+                        <small><p><a href="mailto:piter1@mail.ru">piter1@mail.ru</a></p></small>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <hr>
                 <ul class="nav nav-tabs">
                     <li class="active"><a>Компания</a></li>
                     <li><a>Сотрудники / <span>8</span></a></li>

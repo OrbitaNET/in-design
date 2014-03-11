@@ -236,21 +236,20 @@ ul.nav.nav-tabs {
     background: url("/images/datepicker-background.png") right 9px center no-repeat;
     padding-right: 35px;
 }
-
+.datepicker-field {
+    background: url("/images/datepicker-background.png") right 9px center no-repeat;
+    padding-right: 35px;
+}
 .overflow {
     overflow: hidden;
 }
 
 .has-error {
-    input[type='text'] {
+    input[type='text'].form-control, textarea.form-control {
         .box-shadow(none);
         border: 1px solid rgb(169, 68, 66);
         background-color: rgba(253, 221, 215, 1);
     }
-    input[type='text']:focus {
-        .box-shadow(none);
-    }
-
 }
 
 .form-control[readonly] {
@@ -424,6 +423,7 @@ ul.nav.nav-tabs {
             position: absolute !important;
             top: 0px;
             left: 100px;
+            z-index: 100;
         }
         #content {
             vertical-align: top;
