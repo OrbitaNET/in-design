@@ -315,80 +315,80 @@
 
                         </th>
                     </tr>
-                    </thead>
+                </thead>
                 <tbody>
-                <tr>
-                    <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <a>Заполнить форму</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        21.07.2014 / 19.00
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <a>Заполнить форму</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        21.07.2014 / 19.00
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <a>Заполнить форму</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        21.07.2014 / 19.00
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <a>Заполнить форму</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        21.07.2014 / 19.00
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a>Абакумов Олег Александрович</a>
-                    </td>
-                    <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
-                        </button>
-                    </td>
-                </tr>
+                    <tr>
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <a>Заполнить форму</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            21.07.2014 / 19.00
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <a>Заполнить форму</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            21.07.2014 / 19.00
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <a>Заполнить форму</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            21.07.2014 / 19.00
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <a>Заполнить форму</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            21.07.2014 / 19.00
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <a>Абакумов Олег Александрович</a>
+                        </td>
+                        <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                            <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <div class="clearfix"></div>
